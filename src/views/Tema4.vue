@@ -14,8 +14,11 @@
       .col-lg-8.mt-4
         p Dentro de estos sistemas de tratamiento <strong>está el primario, el cual se compone de un pretratamiento; encargado de efectuar un control del agua para depurarla; consiguiente está el tratamiento secundario, encargado de depurar las partículas que no se pudieron eliminar en el primer proceso y así realizar una desinfección eficiente de los residuos sólidos que quedan. En tercer lugar, está la línea de fangos, la cual realiza un proceso especial para espesar los fangos primarios y secundarios y recuperarlos para producir energía eléctrica o utilizarla como combustible de calefacción de edición.</strong> Ahora bien, se encuentra el desbaste, aquí se retiene la mayor cantidad de materias de un volumen específico que están presentes en el agua las cuales pueden ocasionar alteraciones negativas en los tratamientos de las aguas y los fangos si no son tratadas a tiempo, seguido de este, está el desarenado, el cual elimina los cuerpos flotantes más importantes como las grasas, las fibras, los pelos , entre otros y de la mano, está la decantación primaria el cual elimina a un bajo costo los flotantes restantes que se acumulan en grandes concentraciones y, por último, está el tratamiento biológico aerobio; encargado de la degradación de materia orgánica causa por los microorganismos del proceso (Rodríguez, s.f.). 
         <br>
+    .row.bg11.lag4
+      .col-lg-4
+      .col-lg-8
         p.mt-4 Veamos de manea gráfica cómo es el funcionamiento de las aguas residuales:
-    <br><br>
+    <br><br><br>
     .titulo-sexto.color-acento-contenido
       h5 Figura 2
       span Sistemas de saneamiento

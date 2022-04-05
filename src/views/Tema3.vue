@@ -129,9 +129,15 @@
     #t_3_2.titulo-segundo.color-acento-contenido.mt-4
       h2 3.2. Materiales y accesorios de sistemas de acueducto y alcantarillado
     p Retroalimentando cada aspecto de este tema, <strong>es fundamental identificar qué materiales y accesorios se necesitan para la implementación de un acueducto o alcantarillado,</strong> estos sistemas requieren claramente de materiales y accesorios específicos que sean efectivos y de gran duración, ya que de esto depende que el sistema también funcione de manera óptima.
+    
+    .row.bg33.lag3
+      .col-lg-8
+        p.p-2 Expuesto lo anterior, las tuberías que son para el manejo de agua potable son específicamente fabricadas en polietileno debido a que este material es mucho más flexible y seguro para la salud y así mismo, para la conducción del agua potable, por tanto, las redes de acueducto se fabrican de esta manera, con referencias de 16mm hasta 800mm que atienden perfectamente las necesidades de los usuarios desde la aducción hasta las conexiones domiciliarias. Asimismo, el sistema de alcantarillado interno consta de accesorios específicos como codos, tees y acoplamientos, algunos de estos pueden tener uno o más enchufes para poder combinar partes diferentes de la tubería, igualmente pueden ser necesarios otros elementos como la reducción; que permita una transición segura del alcantarillado a otras secciones y permite la articulación de hierro fundido y plástico. Por otro lado, está el cruce de planos, travesaño y la retracción, que permiten formar ramas en ángulos de 45 y 90 grados y 30, 40 y 60 para la colocación de tuberías paralelas.
+      .col-lg-4
+    
     .row.justify-content-center
       .col-lg-8
-        p Expuesto lo anterior, las tuberías que son para el manejo de agua potable son específicamente fabricadas en polietileno debido a que este material es mucho más flexible y seguro para la salud y así mismo, para la conducción del agua potable, por tanto, las redes de acueducto se fabrican de esta manera, con referencias de 16mm hasta 800mm que atienden perfectamente las necesidades de los usuarios desde la aducción hasta las conexiones domiciliarias. Asimismo, el sistema de alcantarillado interno consta de accesorios específicos como codos, tees y acoplamientos, algunos de estos pueden tener uno o más enchufes para poder combinar partes diferentes de la tubería, igualmente pueden ser necesarios otros elementos como la reducción; que permita una transición segura del alcantarillado a otras secciones y permite la articulación de hierro fundido y plástico. Por otro lado, está el cruce de planos, travesaño y la retracción, que permiten formar ramas en ángulos de 45 y 90 grados y 30, 40 y 60 para la colocación de tuberías paralelas.
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
         p <strong>Otro elemento usual en los sistemas de alcantarillado es el aireador o la válvula de alcantarillado,</strong> que sirve para bloquear la salida de gases al baño a través del inodoro y pueden ser también utilizados para la instalación de aguas residuales externas con el fin de bloquear el reverso del fluido circulante. 
       .col-lg-4
           img(src='@/assets/curso/tema3/img9.png', alt='Texto que describa la imagen')
