@@ -6,9 +6,9 @@
       .titulo-principal__numero
         span 3
       h1 Procedimientos y canales de información
-    p El objetivo principal de los procesos que involucran el tratamiento de aguas residuales se basa en la recuperación del recurso hídrico en su máximo nivel; el cual ha sido contaminado debido al aprovechamiento humano y busca su purificación para poder ser usada nuevamente. Para lograr remover todos los sólidos intratables de un sistema de alcantarillado se pueden emplear diferentes procedimientos como:
+    p(data-aos="zoom-out-up") El objetivo principal de los procesos que involucran el tratamiento de aguas residuales se basa en la recuperación del recurso hídrico en su máximo nivel; el cual ha sido contaminado debido al aprovechamiento humano y busca su purificación para poder ser usada nuevamente. Para lograr remover todos los sólidos intratables de un sistema de alcantarillado se pueden emplear diferentes procedimientos como:
     <br><br><br>
-    ImagenInfografica.color-acento-botones.mb-5.mt-4
+    ImagenInfografica.color-acento-botones.mb-5.mt-4(data-aos="zoom-out-up")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema3/img1.svg', alt='Texto que describa la imagen')
@@ -36,12 +36,12 @@
         .h5.mb-2 7.
         p <strong>Tratamiento de lodos:</strong>  se obtiene una masa sólida durante el tratamiento con el fin de aprovecharla como fertilizante en siembras agrícolas.
     <br><br>
-    #t_3_1.titulo-segundo.color-acento-contenido.mt-4
+    #t_3_1.titulo-segundo.color-acento-contenido.mt-4(data-aos="zoom-out-up")
       h2 3.1. Conceptos, tipos y características de tubería basado en manuales técnicos
     p Para toda actividad relacionada con la conducción de aguas a través de tuberías se deben identificar qué tipos de tuberías emplear para el uso de agua potable y residual, por ejemplo: hace algunos años el material que se empleaba en dichos conductos para el agua potable era el hierro y el plomo, sin embargo, esto causaba grandes afectaciones en el agua llegando a contaminarla totalmente. Por lo anterior, actualmente se deben emplear sistemas de tubería con materiales como plástico o sus derivados.
     p A continuación, se pueden evidenciar los distintos tipos de tubería y su uso:        
     <br><br><br>
-    .row.justify-content-center.bg4
+    .row.justify-content-center.bg4(data-aos="zoom-out")
       .col-lg-8
 
         LineaTiempoD.color-primario
@@ -126,7 +126,7 @@
         .col-lg-8
           .cajon.color-acento-botones.p-4.mb-4
             p Es muy valioso y de gran provecho que estos manuales den recomendaciones para aplicar los diferentes tipos de tuberías, según servicios de agua subterráneas, de distribución, de conductos de agua refrigerados, de drenaje y ventilación, calefacción, contra incendios, etc., es importante sacar provecho de estas herramientas ya que la mayoría de veces pasamos por alto las recomendaciones o instrucciones de cualquier manual sin fijarnos realmente la importancia que estos tienen para la aplicación de un proceso o el desarrollo de una tarea. 
-    #t_3_2.titulo-segundo.color-acento-contenido.mt-4
+    #t_3_2.titulo-segundo.color-acento-contenido.mt-4(data-aos="zoom-out")
       h2 3.2. Materiales y accesorios de sistemas de acueducto y alcantarillado
     p Retroalimentando cada aspecto de este tema, <strong>es fundamental identificar qué materiales y accesorios se necesitan para la implementación de un acueducto o alcantarillado,</strong> estos sistemas requieren claramente de materiales y accesorios específicos que sean efectivos y de gran duración, ya que de esto depende que el sistema también funcione de manera óptima.
     
@@ -135,7 +135,7 @@
         p.p-2 Expuesto lo anterior, las tuberías que son para el manejo de agua potable son específicamente fabricadas en polietileno debido a que este material es mucho más flexible y seguro para la salud y así mismo, para la conducción del agua potable, por tanto, las redes de acueducto se fabrican de esta manera, con referencias de 16mm hasta 800mm que atienden perfectamente las necesidades de los usuarios desde la aducción hasta las conexiones domiciliarias. Asimismo, el sistema de alcantarillado interno consta de accesorios específicos como codos, tees y acoplamientos, algunos de estos pueden tener uno o más enchufes para poder combinar partes diferentes de la tubería, igualmente pueden ser necesarios otros elementos como la reducción; que permita una transición segura del alcantarillado a otras secciones y permite la articulación de hierro fundido y plástico. Por otro lado, está el cruce de planos, travesaño y la retracción, que permiten formar ramas en ángulos de 45 y 90 grados y 30, 40 y 60 para la colocación de tuberías paralelas.
       .col-lg-4
     
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="zoom-out")
       .col-lg-8
         <br><br><br><br><br><br><br><br><br><br><br><br><br>
         p <strong>Otro elemento usual en los sistemas de alcantarillado es el aireador o la válvula de alcantarillado,</strong> que sirve para bloquear la salida de gases al baño a través del inodoro y pueden ser también utilizados para la instalación de aguas residuales externas con el fin de bloquear el reverso del fluido circulante. 

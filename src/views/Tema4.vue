@@ -6,8 +6,8 @@
       .titulo-principal__numero
         span 4
       h1 Diagnosticar sistemas de tratamiento
-    p Es importante mencionar en este apartado, el gran crecimiento que han tenido las ciudades en los últimos años y con ello el gran crecimiento de los sistemas de alcantarillado, de aquí parte una necesidad clara de aplicar sistemas de tratamiento que velen por la salubridad de la población. En primer lugar, se puede realizar un tratamiento preliminar de las aguas residuales que las preparen para su adecuado tratamiento directamente del sistema de alcantarillado removiendo así todos los desperdicios o sólidos que puedan encontrarse en este y que puedan ser difícilmente reutilizados. 
-    .row.justify-content-center
+    p(data-aos="zoom-out") Es importante mencionar en este apartado, el gran crecimiento que han tenido las ciudades en los últimos años y con ello el gran crecimiento de los sistemas de alcantarillado, de aquí parte una necesidad clara de aplicar sistemas de tratamiento que velen por la salubridad de la población. En primer lugar, se puede realizar un tratamiento preliminar de las aguas residuales que las preparen para su adecuado tratamiento directamente del sistema de alcantarillado removiendo así todos los desperdicios o sólidos que puedan encontrarse en este y que puedan ser difícilmente reutilizados. 
+    .row.justify-content-center(data-aos="zoom-out")
       .col-lg-4
         img(src='@/assets/curso/tema4/img1.png', alt='Texto que describa la imagen')
 
@@ -19,12 +19,12 @@
       .col-lg-8
         p.mt-4 Veamos de manea gráfica cómo es el funcionamiento de las aguas residuales:
     <br><br><br>
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="zoom-out-up")
       h5 Figura 2
       span Sistemas de saneamiento
-    img(src='@/assets/curso/tema4/img2.svg', alt='Texto que describa la imagen')
+    img(data-aos="zoom-out-up")(src='@/assets/curso/tema4/img2.svg', alt='Texto que describa la imagen')
     <br><br>
-    .row.justify-content-center.mt-4.bg77
+    .row.justify-content-center.mt-4.bg77(data-aos="zoom-out-up")
 
       .col-lg-4.ml
         img(src='@/assets/curso/tema4/img3.svg', alt='Texto que describa la imagen')
@@ -35,25 +35,25 @@
         a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
-    #t_4_1.titulo-segundo.color-acento-contenido.mt-4
+    #t_4_1.titulo-segundo.color-acento-contenido.mt-4(data-aos="zoom-out-right")
       h2 4.1. Técnicas de recolección de información 
-    p Las técnicas de recolección de información son métodos que sirven para relacionarse más a fondo con los participantes acerca de un tema específico y así, obtener información necesaria para alcanzar objetivos específicos. La mejor manera de adaptarse a los cambios del mercado y sus necesidades es a través de la gestión de la información, entender y saber qué es lo que los consumidores opinan y piensan de un producto o servicio hace que se implemente aún más en las empresas la investigación de mercado. Para dicha investigación, existen diferentes técnicas utilizadas que permiten conocer a profundidad un tema en general, estas pueden ser cualitativas, que permiten una compresión y profundidad alta de información, pero, no permiten una generalización de los resultados. Y, por otra parte, están las herramientas cuantitativas, las cuales, a diferencia de las anteriores, permiten un análisis de grandes cantidades numéricas o de cifras representativas que logran cuantificar los resultados (Research Integrity, s.f.).
+    p(data-aos="zoom-out-right") Las técnicas de recolección de información son métodos que sirven para relacionarse más a fondo con los participantes acerca de un tema específico y así, obtener información necesaria para alcanzar objetivos específicos. La mejor manera de adaptarse a los cambios del mercado y sus necesidades es a través de la gestión de la información, entender y saber qué es lo que los consumidores opinan y piensan de un producto o servicio hace que se implemente aún más en las empresas la investigación de mercado. Para dicha investigación, existen diferentes técnicas utilizadas que permiten conocer a profundidad un tema en general, estas pueden ser cualitativas, que permiten una compresión y profundidad alta de información, pero, no permiten una generalización de los resultados. Y, por otra parte, están las herramientas cuantitativas, las cuales, a diferencia de las anteriores, permiten un análisis de grandes cantidades numéricas o de cifras representativas que logran cuantificar los resultados (Research Integrity, s.f.).
     p Veamos, a continuación, en el siguiente recurso las técnicas más utilizadas:
     .titulo-sexto.color-acento-contenido
       h5 Figura 2
       span Sistemas de saneamiento
-    .row.justify-content-center.bg4
+    .row.justify-content-center.bg4(data-aos="zoom-out-right")
       .col-lg-7
         img(src='@/assets/curso/tema4/img4.svg', alt='Texto que describa la imagen')
     <br>
-    #t_4_2.titulo-segundo.color-acento-contenido.mt-4
+    #t_4_2.titulo-segundo.color-acento-contenido.mt-4(data-aos="zoom-out-right")
       h2 4.2. Tipos de planos y esquemas para definir sistemas alternativos
     p Esquematizar es una herramienta indispensable que proporciona al estudiante una visión completa y estructurada de un tema específico de estudio, es importante que su estructura sea de forma lógica y jerarquizada que demuestre la integración de cada idea con las demás; logrando así resumir en gran medida un contenido de manera sencilla y clara. Además, cabe resaltar que los esquemas pueden servir como sistemas alternativos para plasmar ideas de manera más visual, ofreciendo un desarrollo de las capacidades de análisis, síntesis, orden lógico y dominio de temas, asimismo, facilitan la memorización y el aprendizaje debido a que a muchas personas les resulta mucho más fácil poder memorizar imágenes, colores, símbolos o ciertos patrones dentro de los esquemas. 
     p Existen diferentes tipos de esquemas que pueden implementarse dependiendo de cómo y qué se quiera expresar; veámoslos:
     .row.mb-5
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
 
-        .tarjeta--boton.bg99.p-4
+        .tarjeta--boton.bg98.p-4
           <br>
           .row.mb-3
             .col-2
@@ -69,7 +69,7 @@
                 span Ver ejemplo
                 .indicador--click(v-if="mostrarIndicador")
             .col
-                a.lnk(@click="modal1 = true") 
+                a.lnk(@click="modal1 = false") 
           
           ModalA(:abrir-modal.sync="modal1")
             .row.align-items-center
@@ -77,7 +77,7 @@
                 img(src='@/assets/curso/tema4/img5.svg', alt='Texto que describa la imagen')
           
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.bg99.p-4
+        .tarjeta--boton.bg98.p-4
           <br>
           .row.mb-3
             .col-2
@@ -91,7 +91,6 @@
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal2 = true")
                 span Ver ejemplo
-                .indicador--click(v-if="mostrarIndicador")
             .col
                 a.lnk(@click="modal2 = true") 
           
@@ -101,7 +100,7 @@
                 img(src='@/assets/curso/tema4/img6.svg', alt='Texto que describa la imagen')
           
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.bg99.p-4
+        .tarjeta--boton.bg98.p-4
           <br>
           .row.mb-3
             .col-4
@@ -115,7 +114,6 @@
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal3 = true")
                 span Ver ejemplo
-                .indicador--click(v-if="mostrarIndicador")
             .col
                 a.lnk(@click="modal3 = true") 
           
@@ -126,7 +124,7 @@
           
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.bg99.p-4
+        .tarjeta--boton.bg98.p-4
           <br>
           .row.mb-3
             .col-4
@@ -140,7 +138,6 @@
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal4 = true")
                 span Ver ejemplo
-                .indicador--click(v-if="mostrarIndicador")
             .col
                 a.lnk(@click="modal4 = true") 
           
@@ -150,7 +147,7 @@
                 img(src='@/assets/curso/tema4/img8.svg', alt='Texto que describa la imagen')
     p Podemos encontrar líneas de tiempo para resumir textos históricos y plasmarlos en una secuencia y, por último, encontramos los mapas conceptuales, los cuales dan importancia a la relación entre los conceptos de manera más jerarquizada y organizada.
     p Para realizar un buen esquema, se recomienda:          
-    img(src='@/assets/curso/tema4/img9.svg', alt='Texto que describa la imagen')
+    img(data-aos="zoom-out-right")(src='@/assets/curso/tema4/img9.svg', alt='Texto que describa la imagen')
 
 </template>
 
