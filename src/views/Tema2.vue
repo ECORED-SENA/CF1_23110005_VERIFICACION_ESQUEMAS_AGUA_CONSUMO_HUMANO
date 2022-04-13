@@ -16,7 +16,7 @@
     .row.bg11.lag2
       .col-lg-4
       .col-lg-8
-        p Ahora bien, todas aquellas empresas que desarrollen cualquier actividad de servicios, comercial o industrial y que aporten a la generación de aguas residuales, deben en su totalidad aplicar ciertos criterios establecidos para la generación de vertimientos y consiguiente a esto, realizar los cambios necesarios en los procedimientos para evitar sanciones. Por lo anterior, existen normas de <strong>“Vertimientos puntuales a cuerpos de aguas superficiales y a los sistemas de alcantarillado público”</strong> las cuales buscan mitigar y controlar las sustancias que contaminen las diferentes fuentes de agua como ríos, páginas, sistemas públicos de alcantarillado, entre otros (Acuatecnica S.A.S, 2019). 
+        p.maq2 Ahora bien, todas aquellas empresas que desarrollen cualquier actividad de servicios, comercial o industrial y que aporten a la generación de aguas residuales, deben en su totalidad aplicar ciertos criterios establecidos para la generación de vertimientos y consiguiente a esto, realizar los cambios necesarios en los procedimientos para evitar sanciones. Por lo anterior, existen normas de <strong>“Vertimientos puntuales a cuerpos de aguas superficiales y a los sistemas de alcantarillado público”</strong> las cuales buscan mitigar y controlar las sustancias que contaminen las diferentes fuentes de agua como ríos, páginas, sistemas públicos de alcantarillado, entre otros (Acuatecnica S.A.S, 2019). 
 
     p.mt-4(data-aos="zoom-out-left") Dichos requisitos técnicos deben cumplirse a cabalidad para que el agua sea considerada de uso potable, además los responsables del sistema de agua, sea cual sea su proveniencia, debe velar porque el agua sea extraída de manera segura y responsable con el entorno, así como de los residuos contaminantes que puedan encontrarse en el agua, con el fin de realizar una autopurificación y desilusión de dicho cuerpo de manera consciente y responsable. 
     <br>
@@ -56,7 +56,7 @@
             .col-md-2
               figure
                 img(src='@/assets/curso/tema2/ico1.svg', alt='Texto que describa la imagen')
-            .col-md-1
+            .col-md-1.xxx
             .col-md-9.mb-4.mb-md-0.mt-2
               p Este es el sistema de captación de agua que permite llevar el agua potable hasta el domicilio de la sociedad.
           
@@ -64,7 +64,7 @@
             .col-md-2
               figure
                 img(src='@/assets/curso/tema2/ico2.svg', alt='Texto que describa la imagen')
-            .col-md-1
+            .col-md-1.xxx
             .col-md-9.mb-4.mb-md-0.mt-2
               p Los clientes potenciales son aquellos que probablemente adquirirán alguno de los productos o servicios que son ofertados por la empresa, pero aún no deciden la compra. Para que una empresa logre el crecimiento esperado debe procurar atraer estos clientes y lograr así aumentar su cuota de mercado o participación en el mismo. Para atraer nuevos clientes la empresa debe tener un producto diferenciado que genere valor para los clientes y se diferencie y supere lo que ofrece la competencia.
           
@@ -73,28 +73,28 @@
             .col-md-2
               figure
                 img(src='@/assets/curso/tema2/ico3.svg', alt='Texto que describa la imagen')
-            .col-md-1
+            .col-md-1.xxx
             .col-md-9.mb-4.mb-md-0.mt-2
               p Los desechos sólidos son un gran problema para asegurar la calidad del agua e incluso pueden llegar a provocar enfermedades o reproducción de fauna nociva como mosquitos, roedores, cucarachas, entre otros. Por lo anterior, la separación de los sólidos en los que pueden reutilizarse y los que no son puntos clave que deben tenerse en cuenta de principio a fin.
           .row(numero="4" titulo="Desinfección domiciliaria del agua")
             .col-md-2
               figure
                 img(src='@/assets/curso/tema2/ico4.svg', alt='Texto que describa la imagen')
-            .col-md-1
+            .col-md-1.xxx
             .col-md-9.mb-4.mb-md-0.mt-2
               p La desinfección del agua en los domicilios se trata de una eliminación o extracción de microorganismos presentes en el agua, la cual puede realizarse en los domicilios, <strong>una de ellas es dejar reposar el agua durante 24 horas en un recipiente completamente tapado, con el propósito de que se asienten las sustancias sólidas, igualmente esta desinfección puede realizarse por medio de filtros,</strong> exponiendo el agua a altas temperaturas (hervir) o incluso, realizando una desinfección química con cloro. 
           .row(numero="5" titulo="Disposición sanitaria de excretas")
             .col-md-2
               figure
                 img(src='@/assets/curso/tema2/ico5.svg', alt='Texto que describa la imagen')
-            .col-md-1
+            .col-md-1.xxx
             .col-md-9.mb-4.mb-md-0.mt-2
               p Es muy importante disponer de las excretas humanas sin tener que contaminar el ambiente o provocar daños en la salud, para esto puede utilizarse tecnología apropiada y sostenible.
           .row(numero="6" titulo="Mejoramiento de las condiciones en la vivienda")
             .col-md-2
               figure
                 img(src='@/assets/curso/tema2/ico6.svg', alt='Texto que describa la imagen')
-            .col-md-1
+            .col-md-1.xxx
             .col-md-9.mb-4.mb-md-0.mt-2
               p El sector de agua y saneamiento es un factor determinante para evaluar la calidad de vida de la población, por ello generar condiciones inocuas del recurso hídrico mejora también las condiciones en la vivienda y en la salud en general. 
               p <strong>La adecuada atención que se haga en el saneamiento básico representa un fuerte trabajo por la protección y la conservación del ambiente y de la salud humana de toda la población; por tanto,</strong> la importancia que tiene la prevención en este proceso es fundamental para solucionar riesgos a tiempo y prever riesgos humanos.
@@ -163,14 +163,13 @@
     p En el siguiente video vamos hablar de los esquemas de intervención para el manejo de alcantarillado:
     .row.justify-content-center.bgvideos
       .col-lg-10
-        figure.mt-4
+        figure.mt-2
           .video(data-aos="zoom-out-up")
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         <br>
     p.mt-4 Sabiendo lo anterior, ahora veamos cómo se esquematiza este proceso:
     .titulo-sexto.color-acento-contenido
-      h5 Figura 3
-      span Enfoque analítico para la identificación del alcantarillado
+      h6 Figura 3 Enfoque analítico para la identificación del alcantarillado
     .row.justify-content-center(data-aos="zoom-out-up")
       .col-lg-11
         img(src='@/assets/curso/tema2/img7.svg', alt='Texto que describa la imagen')

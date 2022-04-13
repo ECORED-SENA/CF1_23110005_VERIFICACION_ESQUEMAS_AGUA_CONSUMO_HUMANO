@@ -17,7 +17,7 @@
     .row.bg11.lag4
       .col-lg-4
       .col-lg-8
-        p.mt-4 Veamos de manea gráfica cómo es el funcionamiento de las aguas residuales:
+        p.mt-4 Veamos de manera gráfica cómo es el funcionamiento de las aguas residuales:
     <br><br><br>
     .titulo-sexto.color-acento-contenido(data-aos="zoom-out-up")
       h5 Figura 2
@@ -32,7 +32,7 @@
         #t_9_9.titulo-segundo.color-acento-contenido.mt-4.mb-4
           h2 Tratamiento de aguas residuales
         p Si desea ampliar la temática relacionada con el tratamiento de aguas residuales, puede hacerlo a través del siguiente video: 
-        a.boton.color-acento-botones.me-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+        a.boton.color-acento-botones.me-3(:href="('https://www.youtube.com/watch?v=ktxKQC4FWc8')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
     #t_4_1.titulo-segundo.color-acento-contenido.mt-4(data-aos="zoom-out-right")
@@ -45,7 +45,7 @@
     .row.justify-content-center.bg4(data-aos="zoom-out-right")
       .col-lg-7
         img(src='@/assets/curso/tema4/img4.svg', alt='Texto que describa la imagen')
-    <br>
+        <br><br>
     #t_4_2.titulo-segundo.color-acento-contenido.mt-4(data-aos="zoom-out-right")
       h2 4.2. Tipos de planos y esquemas para definir sistemas alternativos
     p Esquematizar es una herramienta indispensable que proporciona al estudiante una visión completa y estructurada de un tema específico de estudio, es importante que su estructura sea de forma lógica y jerarquizada que demuestre la integración de cada idea con las demás; logrando así resumir en gran medida un contenido de manera sencilla y clara. Además, cabe resaltar que los esquemas pueden servir como sistemas alternativos para plasmar ideas de manera más visual, ofreciendo un desarrollo de las capacidades de análisis, síntesis, orden lógico y dominio de temas, asimismo, facilitan la memorización y el aprendizaje debido a que a muchas personas les resulta mucho más fácil poder memorizar imágenes, colores, símbolos o ciertos patrones dentro de los esquemas. 
@@ -66,7 +66,7 @@
           .row
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal1 = true")
-                span Ver ejemplo
+                span <strong>Ver ejemplo</strong>
                 .indicador--click(v-if="mostrarIndicador")
             .col
                 a.lnk(@click="modal1 = false") 
@@ -90,7 +90,7 @@
           .row
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal2 = true")
-                span Ver ejemplo
+                span <strong>Ver ejemplo</strong>
             .col
                 a.lnk(@click="modal2 = true") 
           
@@ -113,7 +113,7 @@
           .row
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal3 = true")
-                span Ver ejemplo
+                span <strong>Ver ejemplo</strong>
             .col
                 a.lnk(@click="modal3 = true") 
           
@@ -137,7 +137,7 @@
           .row
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal4 = true")
-                span Ver ejemplo
+                span <strong>Ver ejemplo</strong>
             .col
                 a.lnk(@click="modal4 = true") 
           

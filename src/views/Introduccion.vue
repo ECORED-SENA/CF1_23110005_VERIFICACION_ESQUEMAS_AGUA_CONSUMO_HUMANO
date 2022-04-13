@@ -11,12 +11,11 @@
     p(data-aos="zoom-out") Bienvenidos a este componente formativo y como primera instancia, vamos a ver el siguiente video que nos dará una introducción general al tema para luego empezar a desarrollar cada uno de los contenidos:
     <br>
     .row.justify-content-center.bgvideos
-      .col-lg-10
-        figure.mt-4
+      .col-lg-10.mt-2
+        figure
           .video(data-aos="zoom-out-up")
             iframe(width="560" height="215" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-       
-
+        <br><br><br><br><br><br>
 </template>
 
 <script>

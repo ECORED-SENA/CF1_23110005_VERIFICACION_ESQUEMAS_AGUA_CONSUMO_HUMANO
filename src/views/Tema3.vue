@@ -19,7 +19,7 @@
 
       .tarjeta.color-acento-botones.p-3(x="19%" y="50%" numero="")
         .h5.mb-2 2.
-        p <strong>La filtración de arena y aceite:</strong>en este proceso se hace una filtración mucho más minuciosa con el objetivo de retirar partículas mucho más pequeñas logrando separar incluso aceites o grasas durante el proceso. 
+        p <strong>La filtración de arena y aceite:</strong> en este proceso se hace una filtración mucho más minuciosa con el objetivo de retirar partículas mucho más pequeñas logrando separar incluso aceites o grasas durante el proceso. 
       .tarjeta.color-acento-botones.p-3(x="32%" y="7%" numero="")
         .h5.mb-2 3.
         p <strong>Clarificación del agua:</strong> después del filtrado, el agua llega a los tanques clasificadores primarios, los cuales permiten que el lodo llegue hasta el fondo y sean bombeados al exterior, permitiendo una mayor fluidez del agua.
@@ -31,17 +31,17 @@
         p <strong>Cloración o desinfección:</strong> ahora bien, este proceso tiene la finalidad de acabar cualquier tipo de bacteria presente en el agua, agregando cloro u ozono. 
       .tarjeta.color-acento-botones.p-3(x="74%" y="50%" numero="")
         .h5.mb-2 6.
-        p <strong>Análisis y pruebas:</strong>  en esta etapa, se controlan criterios como específicos con el fin de verificar que el agua cumpla con todos los niveles requeridos. 
+        p <strong>Análisis y pruebas:</strong> en esta etapa, se controlan criterios como específicos con el fin de verificar que el agua cumpla con todos los niveles requeridos. 
       .tarjeta.color-acento-botones.p-3(x="87%" y="7%" numero="")
         .h5.mb-2 7.
-        p <strong>Tratamiento de lodos:</strong>  se obtiene una masa sólida durante el tratamiento con el fin de aprovecharla como fertilizante en siembras agrícolas.
+        p <strong>Tratamiento de lodos:</strong> se obtiene una masa sólida durante el tratamiento con el fin de aprovecharla como fertilizante en siembras agrícolas.
     <br><br>
     #t_3_1.titulo-segundo.color-acento-contenido.mt-4(data-aos="zoom-out-up")
       h2 3.1. Conceptos, tipos y características de tubería basado en manuales técnicos
     p Para toda actividad relacionada con la conducción de aguas a través de tuberías se deben identificar qué tipos de tuberías emplear para el uso de agua potable y residual, por ejemplo: hace algunos años el material que se empleaba en dichos conductos para el agua potable era el hierro y el plomo, sin embargo, esto causaba grandes afectaciones en el agua llegando a contaminarla totalmente. Por lo anterior, actualmente se deben emplear sistemas de tubería con materiales como plástico o sus derivados.
     p A continuación, se pueden evidenciar los distintos tipos de tubería y su uso:        
     <br><br><br>
-    .row.justify-content-center.bg4(data-aos="zoom-out")
+    .row.justify-content-center.bg5(data-aos="zoom-out")
       .col-lg-8
 
         LineaTiempoD.color-primario
@@ -117,7 +117,7 @@
                 img(src='@/assets/curso/tema3/img8.png', alt='Texto que describa la imagen')
         
         
-        <br><br><br><br><br><br>
+        <br><br><br><br><br><br><br>
       p De acuerdo a lo anterior, se pueden evidenciar en diferentes manuales, la identificación de cada uno de los tipos de tubería existentes y allí mismo, se pueden encontrar aspectos como: descubrimiento, propiedades, ventajas y desventajas que puede ofrecer cada uno dependiendo su uso, algunas recomendaciones de uso, características específicas de dimensiones o presión, entre otros. 
       .row.justify-content-center
         .col-lg-1
@@ -132,7 +132,7 @@
     
     .row.bg33.lag3
       .col-lg-8
-        p.p-2 Expuesto lo anterior, las tuberías que son para el manejo de agua potable son específicamente fabricadas en polietileno debido a que este material es mucho más flexible y seguro para la salud y así mismo, para la conducción del agua potable, por tanto, las redes de acueducto se fabrican de esta manera, con referencias de 16mm hasta 800mm que atienden perfectamente las necesidades de los usuarios desde la aducción hasta las conexiones domiciliarias. Asimismo, el sistema de alcantarillado interno consta de accesorios específicos como codos, tees y acoplamientos, algunos de estos pueden tener uno o más enchufes para poder combinar partes diferentes de la tubería, igualmente pueden ser necesarios otros elementos como la reducción; que permita una transición segura del alcantarillado a otras secciones y permite la articulación de hierro fundido y plástico. Por otro lado, está el cruce de planos, travesaño y la retracción, que permiten formar ramas en ángulos de 45 y 90 grados y 30, 40 y 60 para la colocación de tuberías paralelas.
+        p.p-2.maq3 Expuesto lo anterior, las tuberías que son para el manejo de agua potable son específicamente fabricadas en polietileno debido a que este material es mucho más flexible y seguro para la salud y así mismo, para la conducción del agua potable, por tanto, las redes de acueducto se fabrican de esta manera, con referencias de 16mm hasta 800mm que atienden perfectamente las necesidades de los usuarios desde la aducción hasta las conexiones domiciliarias. Asimismo, el sistema de alcantarillado interno consta de accesorios específicos como codos, tees y acoplamientos, algunos de estos pueden tener uno o más enchufes para poder combinar partes diferentes de la tubería, igualmente pueden ser necesarios otros elementos como la reducción; que permita una transición segura del alcantarillado a otras secciones y permite la articulación de hierro fundido y plástico. Por otro lado, está el cruce de planos, travesaño y la retracción, que permiten formar ramas en ángulos de 45 y 90 grados y 30, 40 y 60 para la colocación de tuberías paralelas.
       .col-lg-4
     
     .row.justify-content-center(data-aos="zoom-out")

@@ -38,11 +38,11 @@
 
         .tarjeta--boton.p-4.bg3
           .row.justify-content-center.mb-3
-            .col-4
+            .col-4.ubi
               figure
                 img(src='@/assets/curso/tema1/ico1.svg', alt='Texto que describa la imagen')
           <br>
-          h3.text-center Captación
+          h3.text-center.abba Captación
           p.text-small.text-center Cuencas hidrográficas, ríos y quebradas
 
       .col-sm-6.col-lg-2.mb-4.mb-lg-0.wi1
@@ -54,7 +54,7 @@
               figure
                 img(src='@/assets/curso/tema1/ico2.svg', alt='Texto que describa la imagen')
           <br>
-          h3.text-center.mt-1 Distribución
+          h3.text-center.mt-2 Distribución
           p.text-small.text-center Túneles y tuberías
           <br>
       .col-sm-6.col-lg-2.mb-4.mb-lg-0.wi1
@@ -87,11 +87,11 @@
 
         .tarjeta--boton.p-4.bg3
           .row.justify-content-center.mb-0
-            .col-4
+            .col-4.mt-3
               figure
                 img(src='@/assets/curso/tema1/ico5.svg', alt='Texto que describa la imagen')
-          <br><br>
-          h3.text-center Producción
+          <br>
+          h3.text-center.mt-2 Producción
           p.text-small.text-center.mb-0 Planta de tratamiento (No convencional - Filtración directa)
     p Ahora hablaremos de diferentes sistemas y conceptos involucrados en el proceso de abastecimiento:
     TabsB.color-acento-contenido.mb-5(data-aos="zoom-out-left")
