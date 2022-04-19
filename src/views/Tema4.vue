@@ -33,7 +33,7 @@
           h2 Tratamiento de aguas residuales
         p Si desea ampliar la temática relacionada con el tratamiento de aguas residuales, puede hacerlo a través del siguiente video: 
         a.boton.color-acento-botones.me-3(:href="('https://www.youtube.com/watch?v=ktxKQC4FWc8')" target="_blank" type="application/pdf")
-          span Descargar
+          span Ver video
           i.fas.fa-file-download
     #t_4_1.titulo-segundo.color-acento-contenido.mt-4(data-aos="zoom-out-right")
       h2 4.1. Técnicas de recolección de información 
@@ -80,14 +80,14 @@
         .tarjeta--boton.bg98.p-4
           <br>
           .row.mb-3
-            .col-2
+            .col-2.alli
               figure
                 img(src='@/assets/curso/tema4/ico2.svg', alt='Texto que describa la imagen')
 
           h3 Esquema de llaves
           p.mb-1 Este esquema consiste en un modelo que integra mucho más las ideas mediante flechas, barras o llaves con el fin de sintetizar cualquier tipo de información, este puede ser de manera vertical o horizontal.
           <br>
-          .row
+          .row.mb-2
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal2 = true")
                 span <strong>Ver ejemplo</strong>
@@ -103,7 +103,7 @@
         .tarjeta--boton.bg98.p-4
           <br>
           .row.mb-3
-            .col-4
+            .col-4.alli
               figure
                 img(src='@/assets/curso/tema4/ico3.svg', alt='Texto que describa la imagen')
 
@@ -127,7 +127,7 @@
         .tarjeta--boton.bg98.p-4
           <br>
           .row.mb-3
-            .col-4
+            .col-4.alli
               figure
                 img(src='@/assets/curso/tema4/ico4.svg', alt='Texto que describa la imagen')
 

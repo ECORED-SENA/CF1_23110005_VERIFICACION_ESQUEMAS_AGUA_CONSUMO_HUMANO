@@ -169,7 +169,8 @@
         <br>
     p.mt-4 Sabiendo lo anterior, ahora veamos cómo se esquematiza este proceso:
     .titulo-sexto.color-acento-contenido
-      h6 Figura 3 Enfoque analítico para la identificación del alcantarillado
+      p <strong>Figura 3</strong> 
+        span Enfoque analítico para la identificación del alcantarillado
     .row.justify-content-center(data-aos="zoom-out-up")
       .col-lg-11
         img(src='@/assets/curso/tema2/img7.svg', alt='Texto que describa la imagen')

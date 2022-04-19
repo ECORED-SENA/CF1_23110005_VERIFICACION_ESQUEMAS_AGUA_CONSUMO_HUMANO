@@ -15,7 +15,8 @@
     .row.lag
       .col-lg-3
       .col-lg-9.bg1
-        p.mt-4.maq Ahora bien, es fundamental entender que el agua es un recurso vital para la vida de toda una población e incluso de los ecosistemas, la calidad del agua determina aspectos sumamente importantes para la seguridad humana y la salud de nuestros recursos naturales, es por lo anterior, que todo el proceso que implica la obtención de agua potable debe ser responsable y con altos estándares de calidad, desde su recolección o captación hasta su distribución final. Los sistemas convencionales de abastecimiento de agua utilizan aguas superficiales; las cuales hacen referencia a fuentes visibles como lagos, ríos, arroyos o lagunas y también, utilizan aguas subterráneas, es decir, aquellas que se encuentran confinadas en el subsuelo como pozos o galerías filtrantes.
+        p.mt-3.maq Ahora bien, es fundamental entender que el agua es un recurso vital para la vida de toda una población e incluso de los ecosistemas, la calidad del agua determina aspectos sumamente importantes para la seguridad humana y la salud de nuestros recursos naturales, es por lo anterior, que todo el proceso que implica la obtención de agua potable debe ser responsable y con altos estándares de calidad, desde su recolección o captación hasta su distribución final. Los sistemas convencionales de abastecimiento de agua utilizan aguas superficiales; las cuales hacen referencia a fuentes visibles como lagos, ríos, arroyos o lagunas y también, utilizan aguas subterráneas, es decir, aquellas que se encuentran confinadas en el subsuelo como pozos o galerías filtrantes.
+        
     <br><br>
     .row.mt-2(data-aos="zoom-out-right")
       .col-lg-8
@@ -32,7 +33,7 @@
     .row.justify-content-center.bg2.mt-4(data-aos="zoom-in-up")
       .col-lg-2
         h3.mb-2.mt-2 ABASTECIMIENTO
-    .row.mb-5.mt-3(data-aos="zoom-in-down")
+    .row.mb-5.mt-3.justify-content-center(data-aos="zoom-in-down")
       .col-sm-6.col-lg-2.mb-4.mb-lg-0.wi1
 
 
@@ -87,11 +88,10 @@
 
         .tarjeta--boton.p-4.bg3
           .row.justify-content-center.mb-0
-            .col-4.mt-3
+            .col-5.mt-3
               figure
                 img(src='@/assets/curso/tema1/ico5.svg', alt='Texto que describa la imagen')
-          <br>
-          h3.text-center.mt-2 Producción
+          h3.text-center.mt-3 Producción
           p.text-small.text-center.mb-0 Planta de tratamiento (No convencional - Filtración directa)
     p Ahora hablaremos de diferentes sistemas y conceptos involucrados en el proceso de abastecimiento:
     TabsB.color-acento-contenido.mb-5(data-aos="zoom-out-left")
@@ -141,7 +141,7 @@
     .row.lag
       .col-lg-3
       .col-lg-9.bg1
-        p.mt-4.maq Así mismo, la captación es la parte inicial del sistema hidráulico y, es aquí donde se recoge la cantidad de agua necesaria para poder abastecer a la población. <strong>En segundo lugar, está la conducción que es conformada por estructuras civiles y electromecánicas que llevan el agua a una planta de tratamiento y, allí, se implementan procesos que pueden ser químicos, físicos y/o mecánicos, los cuales permiten que el agua adquiera características aptas para el consumo humano y se tenga una adecuada regularización.</strong> El siguiente paso son las líneas de alimentación las cuales son el conjunto de tuberías que sirven como conducto del agua desde el tanque de regularización hasta la red de distribución, y en esta, se entrega el agua en condiciones de calidad a cada uno de los usuarios en sus hogares o domicilios.
+        p.mt-3.maq Así mismo, la captación es la parte inicial del sistema hidráulico y, es aquí donde se recoge la cantidad de agua necesaria para poder abastecer a la población. <strong>En segundo lugar, está la conducción que es conformada por estructuras civiles y electromecánicas que llevan el agua a una planta de tratamiento y, allí, se implementan procesos que pueden ser químicos, físicos y/o mecánicos, los cuales permiten que el agua adquiera características aptas para el consumo humano y se tenga una adecuada regularización.</strong> El siguiente paso son las líneas de alimentación las cuales son el conjunto de tuberías que sirven como conducto del agua desde el tanque de regularización hasta la red de distribución, y en esta, se entrega el agua en condiciones de calidad a cada uno de los usuarios en sus hogares o domicilios.
     
     <br><br>
     p Ahora bien, están los sistemas de alcantarillado que tienen como objetivo el retiro de las aguas que han sido ya aprovechadas y por tanto, contaminadas por parte de los usuarios; consiguiente, está la red de atarjeas que son los conductos de menor diámetro que reciben las aguas residuales y salen de los hogares como descargas domiciliarias y, por último, está de nuevo el tratamiento; encargado de evitar la contaminación provocado por las aguas residuales. 
