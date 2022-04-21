@@ -55,7 +55,7 @@
 
         .tarjeta--boton.bg98.p-4
           <br>
-          .row.mb-3
+          .row.mb-3.mt-1
             .col-2
               figure
                 img(src='@/assets/curso/tema4/ico1.svg', alt='Texto que describa la imagen')
@@ -87,7 +87,7 @@
           h3 Esquema de llaves
           p.mb-1 Este esquema consiste en un modelo que integra mucho más las ideas mediante flechas, barras o llaves con el fin de sintetizar cualquier tipo de información, este puede ser de manera vertical o horizontal.
           <br>
-          .row.mb-2
+          .row.mb-1.mt-2
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal2 = true")
                 span <strong>Ver ejemplo</strong>
@@ -101,8 +101,7 @@
           
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg98.p-4
-          <br>
-          .row.mb-3
+          .row.mb-3.mt-3
             .col-4.alli
               figure
                 img(src='@/assets/curso/tema4/ico3.svg', alt='Texto que describa la imagen')
@@ -110,7 +109,7 @@
           h3 Esquema radial
           p.mb-1 Este esquema consiste en que la idea principal comienza en el centro y de allí se despliegan las ideas secundarias y complementarias.
           <br><br><br>
-          .row
+          .row.mb-2.mt-2
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal3 = true")
                 span <strong>Ver ejemplo</strong>
@@ -125,8 +124,7 @@
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg98.p-4
-          <br>
-          .row.mb-3
+          .row.mb-3.mt-3.awww
             .col-4.alli
               figure
                 img(src='@/assets/curso/tema4/ico4.svg', alt='Texto que describa la imagen')
@@ -134,7 +132,7 @@
           h3 Diagrama de flujo
           p.mb-1 Este esquema consiste en resumir una idea de manera muy visual mientras se responden preguntas en el interior de este.
           <br><br><br><br>
-          .row
+          .row.mb-2.mt-2
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal4 = true")
                 span <strong>Ver ejemplo</strong>

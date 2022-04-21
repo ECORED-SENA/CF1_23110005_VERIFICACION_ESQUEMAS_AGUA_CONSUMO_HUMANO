@@ -46,73 +46,65 @@
 
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Tubería de hierro")
-            .col-md-1
-            .col-md-5.mb-4.mb-md-0.mt-2
-              <br><br>
+            .col-md-4.mb-4.mb-md-0.mt-2.izz
+              <br><br><br>
               p Se utiliza usualmente para redes contra incendios y climatización.
-            .col-md-6
+            .col-md-7
               figure
                 img(src='@/assets/curso/tema3/img1.png', alt='Texto que describa la imagen')
 
           
           .row(numero="2" titulo="Tubería de acero inoxidable")
-            .col-md-1
-            .col-md-5.mb-4.mb-md-0.mt-2
-              <br><br>
+            .col-md-4.mb-4.mb-md-0.mt-2.izz
+              <br><br><br>
               p Son empleadas para sistemas de fontanería como calefacción.
-            .col-md-6
+            .col-md-7
               figure
                 img(src='@/assets/curso/tema3/img2.png', alt='Texto que describa la imagen')
 
           .row(numero="3" titulo="Tubería polietileno reticulado")
-            .col-md-1
-            .col-md-5.mb-4.mb-md-0.mt-2
-              <br>
+            .col-md-4.mb-4.mb-md-0.mt-2.izz
+              <br><br>
               p Son útiles tanto para fontanería como para calefacción, ya que cuentan con condiciones de flexibilidad y memoria térmica, se utilizan usualmente en sistemas de riego, casas rurales, entre otros.
-            .col-md-6
+            .col-md-7
               figure
                 img(src='@/assets/curso/tema3/img3.png', alt='Texto que describa la imagen')
 
           .row(numero="4" titulo="Tubería de cobre")
-            .col-md-1
-            .col-md-5.mb-4.mb-md-0.mt-2
-              <br><br>
+            .col-md-4.mb-4.mb-md-0.mt-2.izz
+              <br><br><br>
               p Su uso más frecuente es en instalaciones de calefacción, agua potable y gas.
-            .col-md-6
+            .col-md-7
               figure
                 img(src='@/assets/curso/tema3/img4.png', alt='Texto que describa la imagen')
 
           .row(numero="5" titulo="Tubería PVC")
-            .col-md-1
-            .col-md-5.mb-4.mb-md-0.mt-2
-              <br><br>
+            .col-md-4.mb-4.mb-md-0.mt-2.izz
+              <br><br><br>
               p Esta es empleada en redes de desagües para aguas potables, fecales o pluviales.
-            .col-md-6
+            .col-md-7
               figure
                 img(src='@/assets/curso/tema3/img5.png', alt='Texto que describa la imagen')
 
           .row(numero="6" titulo="Tubería PB")
-            .col-md-1
-            .col-md-5.mb-4.mb-md-0.mt-2
-              <br><br>
+            .col-md-4.mb-4.mb-md-0.mt-2.izz
+              <br><br><br>
               p Este tipo de tubería es muy común y se usan para pequeñas reformas por su fácil manejo.
-            .col-md-6
+            .col-md-7
               figure
                 img(src='@/assets/curso/tema3/img6.png', alt='Texto que describa la imagen')
           .row(numero="7" titulo="Tubería de polipropileno")
-            .col-md-1
-            .col-md-5.mb-4.mb-md-0.mt-2
-              <br><br>
+            .col-md-4.mb-4.mb-md-0.mt-2.izz
+              <br><br><br>
               p  Estas son las más recomendadas para la conducción de agua potable, es muy utilizada en hospitales, gimnasios, colegios, entre otros. 
-            .col-md-6
+            .col-md-7
               figure
                 img(src='@/assets/curso/tema3/img7.png', alt='Texto que describa la imagen')
           .row(numero="8" titulo="Tubería multiplicada")
-            .col-md-1
-            .col-md-5.mb-4.mb-md-0.mt-2
-              <br><br>
+            .col-md-4.mb-4.mb-md-0.mt-2.izz
+              <br><br><br>
               p  Actualmente este es el tipo de tubería que más ha avanzado en cuanto a su uso, soporta grandes temperaturas y presiones. 
-            .col-md-6
+            .col-md-7
               figure
                 img(src='@/assets/curso/tema3/img8.png', alt='Texto que describa la imagen')
         
