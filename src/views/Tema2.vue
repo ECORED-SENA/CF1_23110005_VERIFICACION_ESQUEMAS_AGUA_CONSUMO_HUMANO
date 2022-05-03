@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
@@ -19,8 +19,8 @@
         p.maq2 Ahora bien, todas aquellas empresas que desarrollen cualquier actividad de servicios, comercial o industrial y que aporten a la generación de aguas residuales, deben en su totalidad aplicar ciertos criterios establecidos para la generación de vertimientos y consiguiente a esto, realizar los cambios necesarios en los procedimientos para evitar sanciones. Por lo anterior, existen normas de <strong>“Vertimientos puntuales a cuerpos de aguas superficiales y a los sistemas de alcantarillado público”</strong> las cuales buscan mitigar y controlar las sustancias que contaminen las diferentes fuentes de agua como ríos, páginas, sistemas públicos de alcantarillado, entre otros (Acuatecnica S.A.S, 2019). 
 
     p.mt-4(data-aos="zoom-out-left") Dichos requisitos técnicos deben cumplirse a cabalidad para que el agua sea considerada de uso potable, además los responsables del sistema de agua, sea cual sea su proveniencia, debe velar porque el agua sea extraída de manera segura y responsable con el entorno, así como de los residuos contaminantes que puedan encontrarse en el agua, con el fin de realizar una autopurificación y desilusión de dicho cuerpo de manera consciente y responsable. 
-    <br>
-    #t_2_1.titulo-segundo.color-acento-contenido.mt-4(data-aos="zoom-out-left")
+    separador
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-left")
       h2 2.1. Normatividad vigente para el sector de agua potable y residual 
     .row.justify-content-center(data-aos="zoom-out")
       .col-lg-2
@@ -32,24 +32,31 @@
             p Dentro de la normatividad vigente para el sector de agua potable y residual, se encuentra la norma de vertimientos, ubicada en la <strong>Resolución 0631 de 2015, la cual responde a la nueva realidad urbana, industrial y ambiental de Colombia;</strong> permitiendo el control de las sustancias contaminantes que llegan y son llevadas hasta los puntos de distribución final. Así mismo, esta resolución debe cumplirse obligatoriamente por las personas involucradas en procesos de generación de aguas residuales, ya que la concentración de dichas sustancias descargadas de los cuerpos de agua afecta su calidad; esta medición se realiza en mg/l al día y son seguidas y controladas por las autoridades ambientales a través de permisos de vertimientos a quienes desarrollen actividades industriales, comerciales o de servicios. 
           .col-md-5
             img(src='@/assets/curso/tema2/img3.png', alt='Texto que describa la imagen')
-    <br>
-    .row.justify-content-center.mt-4(data-aos="zoom-out")
+    
+    .row.justify-content-center.mt-5(data-aos="zoom-out")
       .col-lg-4
         img(src='@/assets/curso/tema2/img4.png', alt='Texto que describa la imagen')
       .col-lg-8.aa
         p Por otro lado, existen otro tipo de resoluciones vigentes para este sector, tales como; la resolución No.0330 de 08 de junio de 2017 <strong>“Por la cual se adopta el Reglamento Técnico para el Sector Agua Potable y Saneamiento Básico – RAS y se derogan las resoluciones 1096 de 2000, 0424 de 2001, 0668 de 2003, 1459 de 2005 y 2320 de 2009"</strong> De igual forma, está el Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico, el cual, junto con el Ministerio de Desarrollo Económico expidan y confieren los requisitos, procedimientos, prácticas y normatividad vigente a nivel nacional de temas como: Acueducto, potabilización, recolección y evacuación de aguas residuales domésticas y pluviales y tratamiento de aguas residuales (Ministerio de Desarrollo Económico, 2000). 
         p De igual forma, se contempla el decreto 1575 de 2007 por el cual se establece el sistema para la protección y control de la calidad del agua para consumo humano, con el propósito de controlar, hacer un seguimiento y prevenir posibles riesgos en la salud humana que pueden ser causados por un consumo de agua mal procesada. Asimismo, la ley 1753 de 2015 facultó al Gobierno nacional para definir esquemas diferenciales en los servicios de acueducto, alcantarillado y aseo en diferentes zonas rurales, teniendo en cuenta también el CONPES 3810 de 2014 <strong>“Política de Suministro de Agua Potable y Saneamiento Básico en la zona Rural”.</strong>
-    .row.justify-content-center.mt-4(data-aos="zoom-out")
-      .col-lg-10
-        img(src='@/assets/curso/tema2/img5.svg', alt='Texto que describa la imagen')
-    <br><br>
-    #t_2_2.titulo-segundo.color-acento-contenido.mt-4(data-aos="zoom-in-left")
+    .row.justify-content-center.mt-5.mb-5(data-aos="zoom-out")
+      .col-lg-10.mt-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.position-relative
+          .bloque-texto-g__img(
+            :style="{'background-image':`url(${require('@/assets/curso/2.png')})`}"  
+          )
+            .imagen-superior.position-absolute(style='bottom:0 ; left: -8.7% ; z-index: 1' ): img(src='@/assets/curso/1.png' style='width: 450px')
+          .bloque-texto-g__texto(style='width: 570px').d-flex.justify-content-center.align-items-center.p-5
+            p.mb-0 Para finalizar, es importante destacar, que las aguas reguladas, deben estar en disposiciones de la norma general para las aguas potables embotelladas o envasadas de acuerdo con el Código Internacional Recomendado de Prácticas Principios Generales de Higiene de los Alimentos y, debe existir una <strong>“aprobación o inspección inicial de la fuente de las aguas definidas y según su origen, deberán basarse en un estudio científico apropiado que se adapte al tipo de recurso (hidrogeología, hidrología, etc.) o que se base en un reconocimiento topográfico de la fuente y de la zona de recarga que demuestre la inocuidad de la fuente, las instalaciones y operaciones de recogida (Ministerio de Desarrollo Económico, 2000)"</strong>
+    
+    separador
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.2. Saneamiento básico 
     p Según la resolución 2674 de 2013, “el saneamiento básico es el mejoramiento y la preservación de las condiciones sanitarias óptimas”, estas condiciones deben incluir programas, registros y check lists y responsables encargados que apliquen protocolos de limpieza y desinfección control de plagas y roedores, manejo de residuos líquidos y sólidos. En el caso del agua, se deben identificar características inocuas del agua en cuanto al color, olor, turbiedad, sólidos totales, conductividad, sustancias flotantes, cloro residual y ph. 
     p A continuación, vamos a ver los diferentes pasos incluidos en el saneamiento básico:
-    <br><br>
-    .row.justify-content-center.bg4(data-aos="zoom-in-left")
-      .col-lg-8
+
+    .row.justify-content-center.bg4.mt-5(data-aos="zoom-in-left")
+      .col-lg-8.mb-5
 
         LineaTiempoD.color-primario
           .row(numero="1" titulo="El abastecimiento de agua para consumo humano")
@@ -98,8 +105,8 @@
             .col-md-9.mb-4.mb-md-0.mt-2
               p El sector de agua y saneamiento es un factor determinante para evaluar la calidad de vida de la población, por ello generar condiciones inocuas del recurso hídrico mejora también las condiciones en la vivienda y en la salud en general. 
               p <strong>La adecuada atención que se haga en el saneamiento básico representa un fuerte trabajo por la protección y la conservación del ambiente y de la salud humana de toda la población; por tanto,</strong> la importancia que tiene la prevención en este proceso es fundamental para solucionar riesgos a tiempo y prever riesgos humanos.
-        <br><br><br> 
-    #t_2_3.titulo-segundo.color-acento-contenido.mt-4(data-aos="zoom-in-left")
+    separador
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.3. Redes y sistemas de alcantarillado
     p Las redes o sistemas de alcantarillado son procesos con tuberías de diámetros grandes que permiten una operación adecuada en su sistema debido a su gran flexibilidad, estos sistemas de alcantarillado pueden ser convencionales o no convencionales, las cuales son subterráneas y transportan aguas negras, grises y pluviales Por otro lado, están las no convencionales y son aquellos que se encuentran muy alejados de la red pública y, por tal razón, es mucho más factible en costos, construcción y mantenimiento, así mismo, estas redes no convencionales recogen todas las aguas de un domicilio para transportarlo a tanques de separación de sólidos y, posteriormente ser depositados en la fuente hídrica. 
     p Existen diferentes tipos de redes de saneamiento, los cuales se dividen en las siguientes categorías:                       
@@ -156,26 +163,28 @@
       h5 Figura 2
       span Sistemas de saneamiento
     img(src='@/assets/curso/tema2/img6.svg', alt='Texto que describa la imagen')(data-aos="zoom-in-right")
-    figcaption <strong>Nota.</strong> http://www.estibaus.info/?p=9230&langswitch_lang=es 
-    <br>
-    #t_2_4.titulo-segundo.color-acento-contenido.mt-4(data-aos="zoom-in-right")
+    figcaption
+      p <strong>Nota.</strong> 
+        span http://www.estibaus.info/?p=9230&langswitch_lang=es 
+    separador
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-right")
       h2 2.4. Esquemas de intervención 
     p En el siguiente video vamos hablar de los esquemas de intervención para el manejo de alcantarillado:
     .row.justify-content-center.bgvideos
       .col-lg-10
-        figure.mt-2
+        figure.mb-3.p-5
           .video(data-aos="zoom-out-up")
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        <br>
+        
     p.mt-4 Sabiendo lo anterior, ahora veamos cómo se esquematiza este proceso:
     .titulo-sexto.color-acento-contenido
-      p <strong>Figura 3</strong> 
+      p.mb-0 <strong>Figura 3</strong> 
         span Enfoque analítico para la identificación del alcantarillado
     .row.justify-content-center(data-aos="zoom-out-up")
       .col-lg-11
         img(src='@/assets/curso/tema2/img7.svg', alt='Texto que describa la imagen')
-    <br>
-    .row.justify-content-center.mt-4
+    
+    .row.mt-5.align-items-center
       .col-lg-1
         img.wii(src='@/assets/curso/tema2/imga.png', alt='Texto que describa la imagen')
       .col-lg-10.mt-2

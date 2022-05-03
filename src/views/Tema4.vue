@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade")
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
@@ -13,18 +13,18 @@
 
       .col-lg-8.mt-4
         p Dentro de estos sistemas de tratamiento <strong>está el primario, el cual se compone de un pretratamiento; encargado de efectuar un control del agua para depurarla; consiguiente está el tratamiento secundario, encargado de depurar las partículas que no se pudieron eliminar en el primer proceso y así realizar una desinfección eficiente de los residuos sólidos que quedan. En tercer lugar, está la línea de fangos, la cual realiza un proceso especial para espesar los fangos primarios y secundarios y recuperarlos para producir energía eléctrica o utilizarla como combustible de calefacción de edición.</strong> Ahora bien, se encuentra el desbaste, aquí se retiene la mayor cantidad de materias de un volumen específico que están presentes en el agua las cuales pueden ocasionar alteraciones negativas en los tratamientos de las aguas y los fangos si no son tratadas a tiempo, seguido de este, está el desarenado, el cual elimina los cuerpos flotantes más importantes como las grasas, las fibras, los pelos , entre otros y de la mano, está la decantación primaria el cual elimina a un bajo costo los flotantes restantes que se acumulan en grandes concentraciones y, por último, está el tratamiento biológico aerobio; encargado de la degradación de materia orgánica causa por los microorganismos del proceso (Rodríguez, s.f.). 
-        <br>
+
     .row.bg11.lag4
       .col-lg-4
       .col-lg-8
         p.mt-4 Veamos de manera gráfica cómo es el funcionamiento de las aguas residuales:
-    <br><br><br>
-    .titulo-sexto.color-acento-contenido(data-aos="zoom-out-up")
+
+    .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-out-up")
       h5 Figura 2
       span Sistemas de saneamiento
     img(data-aos="zoom-out-up")(src='@/assets/curso/tema4/img2.svg', alt='Texto que describa la imagen')
-    <br><br>
-    .row.justify-content-center.mt-4.bg77(data-aos="zoom-out-up")
+
+    .row.justify-content-center.mt-5.bg77(data-aos="zoom-out-up")
 
       .col-lg-4.ml
         img(src='@/assets/curso/tema4/img3.svg', alt='Texto que describa la imagen')
@@ -35,7 +35,8 @@
         a.boton.color-acento-botones.me-3(:href="('https://www.youtube.com/watch?v=ktxKQC4FWc8')" target="_blank" type="application/pdf")
           span Ver video
           i.fas.fa-file-download
-    #t_4_1.titulo-segundo.color-acento-contenido.mt-4(data-aos="zoom-out-right")
+    separador
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 4.1. Técnicas de recolección de información 
     p(data-aos="zoom-out-right") Las técnicas de recolección de información son métodos que sirven para relacionarse más a fondo con los participantes acerca de un tema específico y así, obtener información necesaria para alcanzar objetivos específicos. La mejor manera de adaptarse a los cambios del mercado y sus necesidades es a través de la gestión de la información, entender y saber qué es lo que los consumidores opinan y piensan de un producto o servicio hace que se implemente aún más en las empresas la investigación de mercado. Para dicha investigación, existen diferentes técnicas utilizadas que permiten conocer a profundidad un tema en general, estas pueden ser cualitativas, que permiten una compresión y profundidad alta de información, pero, no permiten una generalización de los resultados. Y, por otra parte, están las herramientas cuantitativas, las cuales, a diferencia de las anteriores, permiten un análisis de grandes cantidades numéricas o de cifras representativas que logran cuantificar los resultados (Research Integrity, s.f.).
     p Veamos, a continuación, en el siguiente recurso las técnicas más utilizadas:
@@ -45,8 +46,8 @@
     .row.justify-content-center.bg4(data-aos="zoom-out-right")
       .col-lg-7
         img(src='@/assets/curso/tema4/img4.svg', alt='Texto que describa la imagen')
-        <br><br>
-    #t_4_2.titulo-segundo.color-acento-contenido.mt-4(data-aos="zoom-out-right")
+    separador
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 4.2. Tipos de planos y esquemas para definir sistemas alternativos
     p Esquematizar es una herramienta indispensable que proporciona al estudiante una visión completa y estructurada de un tema específico de estudio, es importante que su estructura sea de forma lógica y jerarquizada que demuestre la integración de cada idea con las demás; logrando así resumir en gran medida un contenido de manera sencilla y clara. Además, cabe resaltar que los esquemas pueden servir como sistemas alternativos para plasmar ideas de manera más visual, ofreciendo un desarrollo de las capacidades de análisis, síntesis, orden lógico y dominio de temas, asimismo, facilitan la memorización y el aprendizaje debido a que a muchas personas les resulta mucho más fácil poder memorizar imágenes, colores, símbolos o ciertos patrones dentro de los esquemas. 
     p Existen diferentes tipos de esquemas que pueden implementarse dependiendo de cómo y qué se quiera expresar; veámoslos:
@@ -145,8 +146,21 @@
                 img(src='@/assets/curso/tema4/img8.svg', alt='Texto que describa la imagen')
     p Podemos encontrar líneas de tiempo para resumir textos históricos y plasmarlos en una secuencia y, por último, encontramos los mapas conceptuales, los cuales dan importancia a la relación entre los conceptos de manera más jerarquizada y organizada.
     p Para realizar un buen esquema, se recomienda:          
-    img(data-aos="zoom-out-right")(src='@/assets/curso/tema4/img9.svg', alt='Texto que describa la imagen')
-
+    .row.bgxx.p-5.justify-content-center
+      .col-1
+        img.wiaz(src='@/assets/curso/tema4/1.svg', alt='Texto que describa la imagen')
+        img.wiaz.mt-1(src='@/assets/curso/tema4/2.svg', alt='Texto que describa la imagen')
+        img.wiaz.mt-1(src='@/assets/curso/tema4/3.svg', alt='Texto que describa la imagen')
+        img.wiaz.mt-1(src='@/assets/curso/tema4/4.svg', alt='Texto que describa la imagen')
+        img.wiaz.mt-1(src='@/assets/curso/tema4/5.svg', alt='Texto que describa la imagen')
+        img.wiaz.mt-1(src='@/assets/curso/tema4/6.svg', alt='Texto que describa la imagen')
+      .col-10
+        p.mt-4 Realizar una <strong>lectura detallada</strong> y analítica del tema.
+        p.mt-4 <strong>Subrayar los temas</strong> que más encuentre relevantes en el texto.
+        p.mt-4 Hacer uso de <strong>palabras clave</strong> o frases cortas que puedan entenderse fácilmente.
+        p.mt-4 Elegir el tipo de <strong>esquema que más se adecue</strong> a las ideas planteadas.
+        p.mt-4 Extraer las <strong>ideas</strong> secundarias.
+        p.mt-4 Seleccionar <strong>otros conceptos</strong> subordinados a las ideas secundarias.
 </template>
 
 <script>
