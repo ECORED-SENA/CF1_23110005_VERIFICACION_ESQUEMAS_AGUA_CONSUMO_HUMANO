@@ -147,7 +147,7 @@
     p Podemos encontrar líneas de tiempo para resumir textos históricos y plasmarlos en una secuencia y, por último, encontramos los mapas conceptuales, los cuales dan importancia a la relación entre los conceptos de manera más jerarquizada y organizada.
     p Para realizar un buen esquema, se recomienda:          
     .row.bgxx.p-5.justify-content-center
-      .col-12
+      .col-12.ppp
         .row
           .col-1.mas
             img.wiaz(src='@/assets/curso/tema4/1.svg', alt='Texto que describa la imagen')
