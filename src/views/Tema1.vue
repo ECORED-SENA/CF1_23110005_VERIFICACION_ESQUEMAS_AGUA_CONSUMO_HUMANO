@@ -12,7 +12,7 @@
       .col-lg-8.mt-4
         p.mt-4 Para realizar una identificación adecuada de los sistemas de agua para el consumo humano, se debe, primeramente, tener claridad acerca de los conceptos básicos que están directamente relacionados con este proceso, para así, tener mayor claridad y apropiación de los términos a lo largo del desarrollo de la guía. Por lo anterior, este apartado expone diferentes conceptos básicos y algunas características y tipos de hidráulica básica para agua potable, los cuales ayudarán al fortalecimiento y reconocimiento de los diferentes sistemas de agua. 
         
-    .row.lag
+    .row.lag.justify-content-center
       .col-lg-3
       .col-lg-9.bg1
         p.mt-3.maq Ahora bien, es fundamental entender que el agua es un recurso vital para la vida de toda una población e incluso de los ecosistemas, la calidad del agua determina aspectos sumamente importantes para la seguridad humana y la salud de nuestros recursos naturales, es por lo anterior, que todo el proceso que implica la obtención de agua potable debe ser responsable y con altos estándares de calidad, desde su recolección o captación hasta su distribución final. Los sistemas convencionales de abastecimiento de agua utilizan aguas superficiales; las cuales hacen referencia a fuentes visibles como lagos, ríos, arroyos o lagunas y también, utilizan aguas subterráneas, es decir, aquellas que se encuentran confinadas en el subsuelo como pozos o galerías filtrantes.
@@ -54,8 +54,8 @@
               figure
                 img.mt-2(src='@/assets/curso/tema1/ico2.svg', alt='Texto que describa la imagen')
           h3.text-center.mt-4 Distribución
-          p.text-small.text-center Túneles y tuberías
-          <br>
+          p.text-small.text-center.mb1 Túneles y tuberías
+          
       .col-sm-6.col-lg-2.mb-4.mb-lg-0.wi1
 
 
@@ -65,8 +65,8 @@
               figure
                 img(src='@/assets/curso/tema1/ico3.svg', alt='Texto que describa la imagen')
           h3.text-center.mt-4 Almacenamiento
-          p.text-small.text-center Embalses
-          <br>
+          p.text-small.text-center.mb1 Embalses
+
       .col-sm-6.col-lg-2.mb-4.mb-lg-0.wi1
 
 
@@ -76,8 +76,8 @@
               figure
                 img(src='@/assets/curso/tema1/ico4.svg', alt='Texto que describa la imagen')
           h3.text-center.mt-4 Distribución
-          p.text-small.text-center Túneles y tuberías
-          <br>
+          p.text-small.text-center.mb1 Túneles y tuberías
+          
       .col-sm-6.col-lg-2.mb-4.mb-lg-0.wi1
 
 
@@ -96,20 +96,20 @@
         .row
           .col-md-1
           .col-md-6.mb-4.mb-md-0
-            <br>
-            h4.mt-4 Hidráulica
+            
+            h4.mt-5 Hidráulica
             p.mt-2 El concepto de hidráulica hace alusión a un método tecnológico que emplea la circulación de un fluido, en este caso del agua, por medio de una tubería circular que sirve de medio para la transmisión de energía necesaria para su movimiento y/o funcionamiento, es decir, que esta energía aprovecha la fuerza del agua para mover turbinas a través de un generador.
         
           .col-md-4
             figure
-              img(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema1/img3.png', alt='Texto que describa la imagen')
           .col-md-1
       .py-4.py-md-5(titulo="Saneamiento" :icono="require('@/assets/curso/tema1/ico7.svg')")
         .row
           .col-md-1
           .col-md-6.mb-4.mb-md-0
-            <br>
-            h4.mt-4 Saneamiento
+            
+            h4.mt-5 Saneamiento
             p.mt-2 Para este caso, el saneamiento es aquel proceso encargado de recoger, transportar y realizar el tratamiento correspondiente de agua previendo los efectos negativos que puedan presentarse, es importante recalcar que tener acceso a un saneamiento adecuado, en este caso al agua potable, es fundamental para la salud pública y ambiental, por ello la responsabilidad que se tenga de las aguas residuales, los residuos orgánicos y alimenticios son de vital importancia para cumplir estándares de calidad en el recurso hídrico y también de las condiciones de vida urbana y rural. 
         
           .col-md-4
@@ -126,7 +126,7 @@
         
           .col-md-4
             figure
-              img(src='@/assets/curso/tema1/img5.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema1/img5.png', alt='Texto que describa la imagen')
           .col-md-1
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-left")
@@ -144,7 +144,7 @@
 
     p.mt-4 Ahora bien, están los sistemas de alcantarillado que tienen como objetivo el retiro de las aguas que han sido ya aprovechadas y por tanto, contaminadas por parte de los usuarios; consiguiente, está la red de atarjeas que son los conductos de menor diámetro que reciben las aguas residuales y salen de los hogares como descargas domiciliarias y, por último, está de nuevo el tratamiento; encargado de evitar la contaminación provocado por las aguas residuales. 
     p Sabiendo lo anterior, es importante que conozca a través del siguiente recurso, todos los pasos del proceso de la hidráulica, para entregar el agua en condiciones de calidad a los usuarios:          
-    img(src='@/assets/curso/tema1/img7.svg', alt='Texto que describa la imagen')
+    img(src='@/assets/curso/tema1/img7.png', alt='Texto que describa la imagen')
     //.row.justify-content-center.mb-5.mt-5
       .col-lg-9
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.position-relative
@@ -158,12 +158,9 @@
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),

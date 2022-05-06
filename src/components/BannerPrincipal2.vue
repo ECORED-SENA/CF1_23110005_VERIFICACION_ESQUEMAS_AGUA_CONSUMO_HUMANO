@@ -20,7 +20,7 @@
     .imagen_flotante_1: img(src="@/assets/curso/banner/img04.svg")
     .imagen_flotante_2: img(src="@/assets/curso/banner/img01.svg")
     .imagen_flotante_3: img(src="@/assets/curso/banner/img03.svg")
-    .imagen_flotante_5.d-none.d-xl-block: img(src="@/assets/curso/banner/img05.svg")
+    .imagen_flotante_5.d-none.d-xl-block: img(src="@/assets/curso/banner/img05.png")
     .imagen_flotante_6.d-none.d-xl-block: img(src="@/assets/curso/banner/img02.svg")
     //.imagen_flotante_7: img(src="@/assets/curso/banner/img01.svg")
     //.imagen_flotante_8: img(src="@/assets/curso/banner/img01.svg")

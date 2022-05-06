@@ -28,7 +28,7 @@
 
       .col-lg-4.ml
         img(src='@/assets/curso/tema4/img3.svg', alt='Texto que describa la imagen')
-      .col-lg-6
+      .col-lg-6.all3
         #t_9_9.titulo-segundo.color-acento-contenido.mt-4.mb-4
           h2 Tratamiento de aguas residuales
         p Si desea ampliar la temática relacionada con el tratamiento de aguas residuales, puede hacerlo a través del siguiente video: 
@@ -55,15 +55,15 @@
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
 
         .tarjeta--boton.bg98.p-4
-          <br>
-          .row.mb-3.mt-1
+
+          .row.mb-3.mb2
             .col-2
               figure
                 img(src='@/assets/curso/tema4/ico1.svg', alt='Texto que describa la imagen')
 
           h3 Esquema de numeración de ideas
-          p Este esquema puede desarrollarse por nivel de importancia y así mismo asignarle la numeración correspondiente (1.1,1.2,1.3…)
-          <br><br>
+          p.mb4 Este esquema puede desarrollarse por nivel de importancia y así mismo asignarle la numeración correspondiente (1.1,1.2,1.3…)
+
           .row
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal1 = true")
@@ -73,21 +73,21 @@
                 a.lnk(@click="modal1 = false") 
           
           ModalA(:abrir-modal.sync="modal1")
-            .row.align-items-center
-              .col-md-12.mb-4.mb-md-0
+            .row.justify-content-center
+              .col-md-10.mb-4.mb-md-0
                 img(src='@/assets/curso/tema4/img5.svg', alt='Texto que describa la imagen')
           
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.bg98.p-4
-          <br>
-          .row.mb-3
+
+          .row.mb-3.mb2
             .col-2.alli
               figure
                 img(src='@/assets/curso/tema4/ico2.svg', alt='Texto que describa la imagen')
 
           h3 Esquema de llaves
-          p.mb-1 Este esquema consiste en un modelo que integra mucho más las ideas mediante flechas, barras o llaves con el fin de sintetizar cualquier tipo de información, este puede ser de manera vertical o horizontal.
-          <br>
+          p.mb-4 Este esquema consiste en un modelo que integra mucho más las ideas mediante flechas, barras o llaves con el fin de sintetizar cualquier tipo de información, este puede ser de manera vertical o horizontal.
+
           .row.mb-1.mt-2
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal2 = true")
@@ -96,8 +96,8 @@
                 a.lnk(@click="modal2 = true") 
           
           ModalA(:abrir-modal.sync="modal2")
-            .row.align-items-center
-              .col-md-12.mb-4.mb-md-0
+            .row.justify-content-center
+              .col-md-10.mb-4.mb-md-0
                 img(src='@/assets/curso/tema4/img6.svg', alt='Texto que describa la imagen')
           
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -108,8 +108,8 @@
                 img(src='@/assets/curso/tema4/ico3.svg', alt='Texto que describa la imagen')
 
           h3 Esquema radial
-          p.mb-1 Este esquema consiste en que la idea principal comienza en el centro y de allí se despliegan las ideas secundarias y complementarias.
-          <br><br><br>
+          p.mb6 Este esquema consiste en que la idea principal comienza en el centro y de allí se despliegan las ideas secundarias y complementarias.
+
           .row.mb-2.mt-2
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal3 = true")
@@ -118,8 +118,8 @@
                 a.lnk(@click="modal3 = true") 
           
           ModalA(:abrir-modal.sync="modal3")
-            .row.align-items-center
-              .col-md-12.mb-4.mb-md-0
+            .row.justify-content-center
+              .col-md-6.mb-4.mb-md-0
                 img(src='@/assets/curso/tema4/img7.svg', alt='Texto que describa la imagen')
           
 
@@ -131,8 +131,8 @@
                 img(src='@/assets/curso/tema4/ico4.svg', alt='Texto que describa la imagen')
 
           h3 Diagrama de flujo
-          p.mb-1 Este esquema consiste en resumir una idea de manera muy visual mientras se responden preguntas en el interior de este.
-          <br><br><br><br>
+          p.mb7 Este esquema consiste en resumir una idea de manera muy visual mientras se responden preguntas en el interior de este.
+
           .row.mb-2.mt-2
             .col-auto
               a.boton.color-acento-botonones.indicador__container(@click="modal4 = true")
@@ -141,35 +141,55 @@
                 a.lnk(@click="modal4 = true") 
           
           ModalA(:abrir-modal.sync="modal4")
-            .row.align-items-center
-              .col-md-12.mb-4.mb-md-0
+            .row.justify-content-center
+              .col-md-10.mb-4.mb-md-0
                 img(src='@/assets/curso/tema4/img8.svg', alt='Texto que describa la imagen')
     p Podemos encontrar líneas de tiempo para resumir textos históricos y plasmarlos en una secuencia y, por último, encontramos los mapas conceptuales, los cuales dan importancia a la relación entre los conceptos de manera más jerarquizada y organizada.
     p Para realizar un buen esquema, se recomienda:          
     .row.bgxx.p-5.justify-content-center
-      .col-1
-        img.wiaz(src='@/assets/curso/tema4/1.svg', alt='Texto que describa la imagen')
-        img.wiaz.mt-1(src='@/assets/curso/tema4/2.svg', alt='Texto que describa la imagen')
-        img.wiaz.mt-1(src='@/assets/curso/tema4/3.svg', alt='Texto que describa la imagen')
-        img.wiaz.mt-1(src='@/assets/curso/tema4/4.svg', alt='Texto que describa la imagen')
-        img.wiaz.mt-1(src='@/assets/curso/tema4/5.svg', alt='Texto que describa la imagen')
-        img.wiaz.mt-1(src='@/assets/curso/tema4/6.svg', alt='Texto que describa la imagen')
-      .col-10
-        p.mt-4 Realizar una <strong>lectura detallada</strong> y analítica del tema.
-        p.mt-4 <strong>Subrayar los temas</strong> que más encuentre relevantes en el texto.
-        p.mt-4 Hacer uso de <strong>palabras clave</strong> o frases cortas que puedan entenderse fácilmente.
-        p.mt-4 Elegir el tipo de <strong>esquema que más se adecue</strong> a las ideas planteadas.
-        p.mt-4 Extraer las <strong>ideas</strong> secundarias.
-        p.mt-4 Seleccionar <strong>otros conceptos</strong> subordinados a las ideas secundarias.
+      .col-12
+        .row
+          .col-1.mas
+            img.wiaz(src='@/assets/curso/tema4/1.svg', alt='Texto que describa la imagen')
+          .col-10.mas2
+            p.mt-2 Realizar una <strong>lectura detallada</strong> y analítica del tema.
+        .row
+          .col-1.mas        
+            img.wiaz.mt-1(src='@/assets/curso/tema4/2.svg', alt='Texto que describa la imagen')
+          .col-10.mas2
+            p.mt-4 <strong>Subrayar los temas</strong> que más encuentre relevantes en el texto.
+        .row
+          .col-1.mas
+            img.wiaz.mt-1(src='@/assets/curso/tema4/3.svg', alt='Texto que describa la imagen')
+          .col-10.mas2
+            p.mt-4 Hacer uso de <strong>palabras clave</strong> o frases cortas que puedan entenderse fácilmente.
+        .row
+          .col-1.mas
+            img.wiaz.mt-1(src='@/assets/curso/tema4/4.svg', alt='Texto que describa la imagen')
+
+          .col-10.mas2
+            p.mt-4 Elegir el tipo de <strong>esquema que más se adecue</strong> a las ideas planteadas.
+
+        .row
+          .col-1.mas
+            img.wiaz.mt-1(src='@/assets/curso/tema4/5.svg', alt='Texto que describa la imagen')
+
+          .col-10.mas2
+            p.mt-4 Extraer las <strong>ideas</strong> secundarias.
+
+        .row
+          .col-1.mas
+            img.wiaz.mt-1(src='@/assets/curso/tema4/6.svg', alt='Texto que describa la imagen')
+
+          .col-10.mas2
+            p.mt-4 Seleccionar <strong>otros conceptos</strong> subordinados a las ideas secundarias.
+
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema4',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     mostrarIndicador: true,
     indicadorImagenZoom: true,

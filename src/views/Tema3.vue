@@ -13,26 +13,26 @@
         figure
           img(src='@/assets/curso/tema3/img1.svg', alt='Texto que describa la imagen')
 
-      .tarjeta.color-acento-botones.p-3(x="5%" y="7%" numero="")
+      .tarjeta.color-acento-botones.p-3(x="5%" y="8%" numero="")
         .h5.mb-2 1.
         p <strong>La separación de los desechos grandes:</strong> esta, se implementa para la purificación del agua retirando todos los sólidos que puedan obstruir el proceso.
 
-      .tarjeta.color-acento-botones.p-3(x="19%" y="50%" numero="")
+      .tarjeta.color-acento-botones.p-3(x="19.6%" y="52%" numero="")
         .h5.mb-2 2.
         p <strong>La filtración de arena y aceite:</strong> en este proceso se hace una filtración mucho más minuciosa con el objetivo de retirar partículas mucho más pequeñas logrando separar incluso aceites o grasas durante el proceso. 
-      .tarjeta.color-acento-botones.p-3(x="32%" y="7%" numero="")
+      .tarjeta.color-acento-botones.p-3(x="32%" y="9%" numero="")
         .h5.mb-2 3.
         p <strong>Clarificación del agua:</strong> después del filtrado, el agua llega a los tanques clasificadores primarios, los cuales permiten que el lodo llegue hasta el fondo y sean bombeados al exterior, permitiendo una mayor fluidez del agua.
-      .tarjeta.color-acento-botones.p-3(x="46.7%" y="50%" numero="")
+      .tarjeta.color-acento-botones.p-3(x="47%" y="52%" numero="")
         .h5.mb-2 4.
         p <strong>Aireación:</strong> en esta etapa se bombea aire al tanque con el fin de propagar el crecimiento de las bacterias y acelerar así la degradación de materia orgánica.
-      .tarjeta.color-acento-botones.p-3(x="60%" y="7%" numero="")
+      .tarjeta.color-acento-botones.p-3(x="60%" y="8%" numero="")
         .h5.mb-2 5.
         p <strong>Cloración o desinfección:</strong> ahora bien, este proceso tiene la finalidad de acabar cualquier tipo de bacteria presente en el agua, agregando cloro u ozono. 
-      .tarjeta.color-acento-botones.p-3(x="74%" y="50%" numero="")
+      .tarjeta.color-acento-botones.p-3(x="75%" y="52.5%" numero="")
         .h5.mb-2 6.
         p <strong>Análisis y pruebas:</strong> en esta etapa, se controlan criterios como específicos con el fin de verificar que el agua cumpla con todos los niveles requeridos. 
-      .tarjeta.color-acento-botones.p-3(x="87%" y="7%" numero="")
+      .tarjeta.color-acento-botones.p-3(x="88%" y="8%" numero="")
         .h5.mb-2 7.
         p <strong>Tratamiento de lodos:</strong> se obtiene una masa sólida durante el tratamiento con el fin de aprovecharla como fertilizante en siembras agrícolas.
     separador
@@ -107,7 +107,7 @@
       p.mt-5 De acuerdo a lo anterior, se pueden evidenciar en diferentes manuales, la identificación de cada uno de los tipos de tubería existentes y allí mismo, se pueden encontrar aspectos como: descubrimiento, propiedades, ventajas y desventajas que puede ofrecer cada uno dependiendo su uso, algunas recomendaciones de uso, características específicas de dimensiones o presión, entre otros. 
       .row.justify-content-center
         .col-lg-1
-        .col-lg-2
+        .col-lg-2.aaaz
           img(src='@/assets/curso/tema3/ico1.svg', alt='Texto que describa la imagen')
         .col-lg-8
           .cajon.color-acento-botones.p-4.mb-4
@@ -124,20 +124,17 @@
     
     .row.justify-content-center(data-aos="zoom-out")
       .col-lg-8
-        <br><br><br><br><br><br><br><br><br><br><br><br><br>
-        p <strong>Otro elemento usual en los sistemas de alcantarillado es el aireador o la válvula de alcantarillado,</strong> que sirve para bloquear la salida de gases al baño a través del inodoro y pueden ser también utilizados para la instalación de aguas residuales externas con el fin de bloquear el reverso del fluido circulante. 
+
+        p.mt1 <strong>Otro elemento usual en los sistemas de alcantarillado es el aireador o la válvula de alcantarillado,</strong> que sirve para bloquear la salida de gases al baño a través del inodoro y pueden ser también utilizados para la instalación de aguas residuales externas con el fin de bloquear el reverso del fluido circulante. 
       .col-lg-4
           img(src='@/assets/curso/tema3/img9.png', alt='Texto que describa la imagen')
     p.mt-4 Por último, existen diferentes tipos de materiales implementados en las tuberías <strong>como hierro fundido, polietileno, polipropileno, cloruro de polivinilo, acero, cemento de asbesto y cerámica,</strong> de estos elementos, los más utilizados son el polipropileno, polietileno y PVC ya que son más duraderos a diferencia del metal. Sin embargo, hay que prestar especial atención a las recomendaciones que los manuales puedan darnos ya que, el uso de estos materiales cambia dependiendo de su implementación (TechnoLux, s,f). 
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),

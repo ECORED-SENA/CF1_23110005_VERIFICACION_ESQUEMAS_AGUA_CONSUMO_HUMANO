@@ -23,9 +23,9 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-left")
       h2 2.1. Normatividad vigente para el sector de agua potable y residual 
     .row.justify-content-center(data-aos="zoom-out")
-      .col-lg-2
+      .col-lg-2.zzz
         img(src='@/assets/curso/tema2/img2.svg', alt='Texto que describa la imagen')
-      .col-lg-10
+      .col-lg-10.zzz2
         p El Ministerio de Ambiente, Vivienda y Desarrollo Territorial a través de Agua y Saneamiento, han estado trabajando en la consolidación de un Reglamento Técnico del sector de agua potable, más conocido como RAS, con el propósito de articular las diferentes políticas del sector de agua y saneamiento, con las políticas ambientales y de orden territorial; sin embargo, se debe ser conscientes de que esta conservación no es solo responsabilidad del Estado, sino también de todas las personas que hacen uso de estos recursos naturales. 
         .row
           .col-lg-7
@@ -114,51 +114,51 @@
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
 
         .tarjeta--boton.bg99.p-4
-          <br>
-          .row.mb-3
+
+          .row.mb-3.mb2
             .col-5
               figure
                 img(src='@/assets/curso/tema2/ico7.svg', alt='Texto que describa la imagen')
 
           h3 Redes unitarias:
-          p son aquellas conformadas por un solo conducto de evacuación de las diferentes aguas residuales.
-          <br><br><br><br><br>
+          p.mb3 son aquellas conformadas por un solo conducto de evacuación de las diferentes aguas residuales.
+
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
 
         .tarjeta--boton.bg99.p-4
-          <br>
-          .row.mb-3
+
+          .row.mb-3.mb2
             .col-5
               figure
                 img(src='@/assets/curso/tema2/ico8.svg', alt='Texto que describa la imagen')
 
           h3 Redes separativas:
-          p son aquellas que cuentan con dos conductos separados independientemente, una para aguas residuales de uso doméstico y otra para aguas industriales y aguas lluvias.
-          <br><br>
+          p.mb4 son aquellas que cuentan con dos conductos separados independientemente, una para aguas residuales de uso doméstico y otra para aguas industriales y aguas lluvias.
+
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
 
         .tarjeta--boton.bg99.p-4
-          <br>
-          .row.mb-3
+
+          .row.mb-3.mb2
             .col-5
               figure
                 img(src='@/assets/curso/tema2/ico9.svg', alt='Texto que describa la imagen')
 
           h4 Redes pseudo – separativas: 
-          p son las intermedias entre las unitarias y separativas y tienen canalizaciones separadas para aislar las aguas lluvias y residuales en la calle, pero no en los domicilios y empresas.
-          <br><br>
+          p.mb4 son las intermedias entre las unitarias y separativas y tienen canalizaciones separadas para aislar las aguas lluvias y residuales en la calle, pero no en los domicilios y empresas.
+
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
 
         .tarjeta--boton.bg99.p-4
-          <br>
-          .row.mb-3
+
+          .row.mb-3.mb2
             .col-5
               figure
                 img(src='@/assets/curso/tema2/ico10.svg', alt='Texto que describa la imagen')
 
           h5 Redes doblemente separativas:
-          p.mb-0 las cuales consta de dos canalizaciones que son independientes, una para la red de alcantarillado sanitario y otra para las aguas residuales domésticas, transportándose a un receptor que puede ser un río, una laguna o el mar. 
-          <br>
+          p.mb-3 las cuales consta de dos canalizaciones que son independientes, una para la red de alcantarillado sanitario y otra para las aguas residuales domésticas, transportándose a un receptor que puede ser un río, una laguna o el mar. 
+
     .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
       h5 Figura 2
       span Sistemas de saneamiento
@@ -171,8 +171,8 @@
       h2 2.4. Esquemas de intervención 
     p En el siguiente video vamos hablar de los esquemas de intervención para el manejo de alcantarillado:
     .row.justify-content-center.bgvideos
-      .col-lg-10
-        figure.mb-3.p-5
+      .col-lg-10.aaz.p-5
+        figure
           .video(data-aos="zoom-out-up")
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
