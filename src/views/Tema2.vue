@@ -174,7 +174,7 @@
       .col-lg-10.aaz.p-5
         figure
           .video(data-aos="zoom-out-up")
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/JlcWQ2GVqYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
     p.mt-4 Sabiendo lo anterior, ahora veamos cómo se esquematiza este proceso:
     .titulo-sexto.color-acento-contenido

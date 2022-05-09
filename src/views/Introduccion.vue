@@ -14,7 +14,7 @@
       .col-lg-10.p-5.aaz
         figure
           .video(data-aos="zoom-out-up")
-            iframe(width="560" height="215" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="215" src="https://www.youtube.com/embed/3_z9IS-9-y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
 </template>
 
