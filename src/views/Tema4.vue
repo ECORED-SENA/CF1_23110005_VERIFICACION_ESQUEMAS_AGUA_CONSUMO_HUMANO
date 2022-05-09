@@ -151,37 +151,37 @@
         .row
           .col-1.mas
             img.wiaz(src='@/assets/curso/tema4/1.svg', alt='Texto que describa la imagen')
-          .col-10.mas2
+          .col-11.mas2
             p.mt-2 Realizar una <strong>lectura detallada</strong> y analítica del tema.
         .row
           .col-1.mas        
             img.wiaz.mt-1(src='@/assets/curso/tema4/2.svg', alt='Texto que describa la imagen')
-          .col-10.mas2
+          .col-11.mas2
             p.mt-4 <strong>Subrayar los temas</strong> que más encuentre relevantes en el texto.
         .row
           .col-1.mas
             img.wiaz.mt-1(src='@/assets/curso/tema4/3.svg', alt='Texto que describa la imagen')
-          .col-10.mas2
+          .col-11.mas2
             p.mt-4 Hacer uso de <strong>palabras clave</strong> o frases cortas que puedan entenderse fácilmente.
         .row
           .col-1.mas
             img.wiaz.mt-1(src='@/assets/curso/tema4/4.svg', alt='Texto que describa la imagen')
 
-          .col-10.mas2
+          .col-11.mas2
             p.mt-4 Elegir el tipo de <strong>esquema que más se adecue</strong> a las ideas planteadas.
 
         .row
           .col-1.mas
             img.wiaz.mt-1(src='@/assets/curso/tema4/5.svg', alt='Texto que describa la imagen')
 
-          .col-10.mas2
+          .col-11.mas2
             p.mt-4 Extraer las <strong>ideas</strong> secundarias.
 
         .row
           .col-1.mas
             img.wiaz.mt-1(src='@/assets/curso/tema4/6.svg', alt='Texto que describa la imagen')
 
-          .col-10.mas2
+          .col-11.mas2
             p.mt-4 Seleccionar <strong>otros conceptos</strong> subordinados a las ideas secundarias.
 
 </template>
