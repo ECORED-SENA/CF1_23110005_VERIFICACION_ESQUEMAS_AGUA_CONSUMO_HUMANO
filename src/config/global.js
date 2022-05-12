@@ -319,6 +319,33 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Lizeth Daniela Reinoso Diaz',
+        cargo: 'Experto temático',
+        centro: 'Centro Agropecuario La Granja Regional Tolima',
+      },
+      {
+        nombre: 'Miroslava González Hernández',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Norte de Santander',
+      },
+      {
+        nombre: 'Diego Acevedo',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Norte de Santander',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Asesor metodológico',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -333,7 +360,7 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['', ''],
+        nombre: ['Yuly Rey'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
@@ -389,6 +416,12 @@ export default {
       {
         nombre: 'Mayerly Pérez Jaimes ',
         cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
+        cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
