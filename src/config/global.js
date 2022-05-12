@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Caracterización de sistemas alternos para tratamientos de agua según la normativa.',
+      'Caracterización de sistemas alternos para tratamientos de agua según la normativa',
     descripcionCurso:
       'El sistema de suministro de agua es de vital importancia para la captación, tratamiento, almacenamiento y distribución óptima para el uso y consumo humano. Así mismo, existen muchos tipos de fuentes que pueden ser consideradas de consumo potable si son tratadas adecuadamente; estas pueden ser naturales, superficiales, subterráneas o atmosféricas.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
@@ -293,9 +293,9 @@ export default {
     },
     {
       texto:
-        '2.3. Redes y sistemas de alcantarillado EMCASERVICIOS. (2020). ¿Cómo funciona un sistema de alcantarillado? [Video]. YouTube.',
+        '2.3. Redes y sistemas de alcantarillado EMCASERVICIOS. (2020). ¿Cómo funciona un sistema de alcantarillado? [Video]. https://www.youtube.com/watch?v=vnXBwQXY-Qw',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=vnXBwQXY-Qw',
+      link: 'https://www.youtube.com/watch?v=vnXBwQXY-Qw',
     },
     {
       texto:
@@ -333,41 +333,67 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['', ''],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Sergio Mauricio Valencia Martinez',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Pedro Nel Calao Zabala',
+        cargo: 'Ilustrador',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Mayerly Pérez Jaimes ',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

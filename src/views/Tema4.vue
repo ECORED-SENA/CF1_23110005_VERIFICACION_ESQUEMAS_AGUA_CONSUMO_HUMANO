@@ -21,7 +21,7 @@
 
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="zoom-out-up")
       h5 Figura 2
-      span Sistemas de saneamiento
+      span Tratamiento preliminar de aguas residuales
     img(data-aos="zoom-out-up")(src='@/assets/curso/tema4/img2.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-center.mt-5.bg77(data-aos="zoom-out-up")
@@ -41,8 +41,8 @@
     p(data-aos="zoom-out-right") Las técnicas de recolección de información son métodos que sirven para relacionarse más a fondo con los participantes acerca de un tema específico y así, obtener información necesaria para alcanzar objetivos específicos. La mejor manera de adaptarse a los cambios del mercado y sus necesidades es a través de la gestión de la información, entender y saber qué es lo que los consumidores opinan y piensan de un producto o servicio hace que se implemente aún más en las empresas la investigación de mercado. Para dicha investigación, existen diferentes técnicas utilizadas que permiten conocer a profundidad un tema en general, estas pueden ser cualitativas, que permiten una compresión y profundidad alta de información, pero, no permiten una generalización de los resultados. Y, por otra parte, están las herramientas cuantitativas, las cuales, a diferencia de las anteriores, permiten un análisis de grandes cantidades numéricas o de cifras representativas que logran cuantificar los resultados (Research Integrity, s.f.).
     p Veamos, a continuación, en el siguiente recurso las técnicas más utilizadas:
     .titulo-sexto.color-acento-contenido
-      h5 Figura 2
-      span Sistemas de saneamiento
+      h5 Figura 5
+      span Métodos de recolección de información
     .row.justify-content-center.bg4(data-aos="zoom-out-right")
       .col-lg-7
         img(src='@/assets/curso/tema4/img4.svg', alt='Texto que describa la imagen')

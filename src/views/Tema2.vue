@@ -47,7 +47,7 @@
           )
             .imagen-superior.position-absolute(style='bottom:0 ; left: -8.7% ; z-index: 1' ): img(src='@/assets/curso/1.png' style='width: 450px')
           .bloque-texto-g__texto(style='width: 570px').d-flex.justify-content-center.align-items-center.p-5
-            p.mb-0 Para finalizar, es importante destacar, que las aguas reguladas, deben estar en disposiciones de la norma general para las aguas potables embotelladas o envasadas de acuerdo con el Código Internacional Recomendado de Prácticas Principios Generales de Higiene de los Alimentos y, debe existir una <strong>“aprobación o inspección inicial de la fuente de las aguas definidas y según su origen, deberán basarse en un estudio científico apropiado que se adapte al tipo de recurso (hidrogeología, hidrología, etc.) o que se base en un reconocimiento topográfico de la fuente y de la zona de recarga que demuestre la inocuidad de la fuente, las instalaciones y operaciones de recogida (Ministerio de Desarrollo Económico, 2000)"</strong>
+            p.mb-0 Para finalizar, es importante destacar, que las aguas reguladas, deben estar en disposiciones de la norma general para las aguas potables embotelladas o envasadas de acuerdo con el Código Internacional Recomendado de Prácticas Principios Generales de Higiene de los Alimentos y, debe existir una <strong>“aprobación o inspección inicial de la fuente de las aguas definidas y según su origen, deberán basarse en un estudio científico apropiado que se adapte al tipo de recurso (hidrogeología, hidrología, etc.) o que se base en un reconocimiento topográfico de la fuente y de la zona de recarga que demuestre la inocuidad de la fuente, las instalaciones y operaciones de recogida (Ministerio de Desarrollo Económico, 2000)".</strong>
     
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -120,8 +120,8 @@
               figure
                 img(src='@/assets/curso/tema2/ico7.svg', alt='Texto que describa la imagen')
 
-          h3 Redes unitarias:
-          p.mb3 son aquellas conformadas por un solo conducto de evacuación de las diferentes aguas residuales.
+          h3 Redes unitarias
+          p.mb3 Son aquellas conformadas por un solo conducto de evacuación de las diferentes aguas residuales.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
 
@@ -132,8 +132,8 @@
               figure
                 img(src='@/assets/curso/tema2/ico8.svg', alt='Texto que describa la imagen')
 
-          h3 Redes separativas:
-          p.mb4 son aquellas que cuentan con dos conductos separados independientemente, una para aguas residuales de uso doméstico y otra para aguas industriales y aguas lluvias.
+          h3 Redes separativas
+          p.mb4 Son aquellas que cuentan con dos conductos separados independientemente, una para aguas residuales de uso doméstico y otra para aguas industriales y aguas lluvias.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
 
@@ -144,8 +144,8 @@
               figure
                 img(src='@/assets/curso/tema2/ico9.svg', alt='Texto que describa la imagen')
 
-          h4 Redes pseudo – separativas: 
-          p.mb4 son las intermedias entre las unitarias y separativas y tienen canalizaciones separadas para aislar las aguas lluvias y residuales en la calle, pero no en los domicilios y empresas.
+          h4 Redes pseudo – separativas
+          p.mb4 Son las intermedias entre las unitarias y separativas y tienen canalizaciones separadas para aislar las aguas lluvias y residuales en la calle, pero no en los domicilios y empresas.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
 
@@ -156,8 +156,8 @@
               figure
                 img(src='@/assets/curso/tema2/ico10.svg', alt='Texto que describa la imagen')
 
-          h5 Redes doblemente separativas:
-          p.mb-3 las cuales consta de dos canalizaciones que son independientes, una para la red de alcantarillado sanitario y otra para las aguas residuales domésticas, transportándose a un receptor que puede ser un río, una laguna o el mar. 
+          h5 Redes doblemente separativas
+          p.mb-3 Las cuales consta de dos canalizaciones que son independientes, una para la red de alcantarillado sanitario y otra para las aguas residuales domésticas, transportándose a un receptor que puede ser un río, una laguna o el mar. 
 
     .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
       h5 Figura 2
@@ -188,7 +188,7 @@
       .col-lg-1
         img.wii(src='@/assets/curso/tema2/imga.png', alt='Texto que describa la imagen')
       .col-lg-10.mt-2
-        p En la figura anterior, se puede observar un esquema alternativo que podría implementarse en el manejo de alcantarillados; el cual debe enfocarse en el dónde y el cómo las aguas residuales que se generan pueden ser tratadas de manera adecuada, partiendo de estándares de calidad que exige la ley como se mencionó con anterioridad. Además, los esquemas pueden implementarse para tener un análisis más preciso y saber a tiempo que puede mejorarse en las diferentes etapas y que puede adecuarse de acuerdo a las necesidades del usuario (Equipo de planificación de alcantarillado, 2009)
+        p En la figura anterior, se puede observar un esquema alternativo que podría implementarse en el manejo de alcantarillados; el cual debe enfocarse en el dónde y el cómo las aguas residuales que se generan pueden ser tratadas de manera adecuada, partiendo de estándares de calidad que exige la ley como se mencionó con anterioridad. Además, los esquemas pueden implementarse para tener un análisis más preciso y saber a tiempo que puede mejorarse en las diferentes etapas y que puede adecuarse de acuerdo a las necesidades del usuario (Equipo de planificación de alcantarillado, 2009).
       .col-lg-1
 
 </template>

@@ -27,7 +27,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-up")
       h2 1.1. Conceptos básicos
     p Un sistema de agua potable es el conjunto de instalaciones y equipos utilizados para el abastecimiento del agua en una población; cumpliendo siempre con criterios de continuidad, cantidades suficiente, calidad y presión necesaria para garantizar un servicio de agua óptimo a los miembros de una comunidad. 
-    p De igual forma, todo el conjunto de tuberías, instalaciones y accesorios están destinados a llevar, tratar, almacenar y distribuir el agua desde su fuente hasta los hogares de dichas personas, cubriendo así una de las necesidades de la población. Así mismo, se tienen diferentes sistemas de agua potable como: sistema natural de desagüe, sistema de captación de agua lluvia, agua superficial, aguas subterráneas y acuífero (Velázquez, 2015)
+    p De igual forma, todo el conjunto de tuberías, instalaciones y accesorios están destinados a llevar, tratar, almacenar y distribuir el agua desde su fuente hasta los hogares de dichas personas, cubriendo así una de las necesidades de la población. Así mismo, se tienen diferentes sistemas de agua potable como: sistema natural de desagüe, sistema de captación de agua lluvia, agua superficial, aguas subterráneas y acuífero (Velázquez, 2015).
     p El abastecimiento del agua para uso doméstico comprende las siguientes fases:
 
     .row.justify-content-center.bg2.mt-4(data-aos="zoom-in-up")
