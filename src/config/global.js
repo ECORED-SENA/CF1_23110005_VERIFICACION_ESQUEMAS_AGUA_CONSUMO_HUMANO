@@ -286,20 +286,19 @@ export default {
   complementario: [
     {
       texto:
-        '2.1 Normatividad vigente para el sector de agua potable y residual.Gobierno de Colombia. (s.f.). Decreto 1575 de 2007. Decreto-1575-de-2007-Gestor-Normativo (funcionpublica.gov.co)',
+        'Gobierno de Colombia. (s.f.). Decreto 1575 de 2007. Decreto-1575-de-2007-Gestor-Normativo (funcionpublica.gov.co)',
       tipo: 'Decreto',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=30007',
     },
     {
       texto:
-        '2.3. Redes y sistemas de alcantarillado EMCASERVICIOS. (2020). ¿Cómo funciona un sistema de alcantarillado? [Video]. https://www.youtube.com/watch?v=vnXBwQXY-Qw',
+        'EMCASERVICIOS. (2020). ¿Cómo funciona un sistema de alcantarillado? [Video]. https://www.youtube.com/watch?v=vnXBwQXY-Qw',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=vnXBwQXY-Qw',
     },
     {
-      texto:
-        '3.1 Conceptos, tipos y características de tuberías basados en manuales técnicos Manual de Tubería de cobre. (s.f.). Manual_tuberias.pdf',
+      texto: 'Manual de Tubería de cobre. (s.f.). Manual_tuberias.pdf',
       tipo: 'Documento',
       link: 'https://www.academia.edu/17622063/Manual_tuberias',
     },

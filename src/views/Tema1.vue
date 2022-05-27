@@ -12,7 +12,7 @@
       .col-lg-8.mt-4
         p.mt-4 Para realizar una identificación adecuada de los sistemas de agua para el consumo humano, se debe, primeramente, tener claridad acerca de los conceptos básicos que están directamente relacionados con este proceso, para así, tener mayor claridad y apropiación de los términos a lo largo del desarrollo de la guía. Por lo anterior, este apartado expone diferentes conceptos básicos y algunas características y tipos de hidráulica básica para agua potable, los cuales ayudarán al fortalecimiento y reconocimiento de los diferentes sistemas de agua. 
         
-    .row.lag.justify-content-center
+    .row.lag33.justify-content-center
       .col-lg-3
       .col-lg-9.bg1
         p.mt-3.maq Ahora bien, es fundamental entender que el agua es un recurso vital para la vida de toda una población e incluso de los ecosistemas, la calidad del agua determina aspectos sumamente importantes para la seguridad humana y la salud de nuestros recursos naturales, es por lo anterior, que todo el proceso que implica la obtención de agua potable debe ser responsable y con altos estándares de calidad, desde su recolección o captación hasta su distribución final. Los sistemas convencionales de abastecimiento de agua utilizan aguas superficiales; las cuales hacen referencia a fuentes visibles como lagos, ríos, arroyos o lagunas y también, utilizan aguas subterráneas, es decir, aquellas que se encuentran confinadas en el subsuelo como pozos o galerías filtrantes.
@@ -136,7 +136,7 @@
           img.imgposition(src='@/assets/curso/tema1/img6.png', alt='Texto que describa la imagen')
         .col-lg-8.mt-4
           p.mt-4 La hidráulica, tiene como objetivo la prevención de las enfermedades de tipo hídrico, desde su recolección del agua residual hasta su distribución, el buen manejo de este proceso da como resultado que los sistemas de agua potable y alcantarillado sanitario sean complementarios. Entre sus características están: el volumen; la presión y la densidad.
-    .row.lag
+    .row.lag33
       .col-lg-3
       .col-lg-9.bg1
         p.mt-3.maq Así mismo, la captación es la parte inicial del sistema hidráulico y, es aquí donde se recoge la cantidad de agua necesaria para poder abastecer a la población. <strong>En segundo lugar, está la conducción que es conformada por estructuras civiles y electromecánicas que llevan el agua a una planta de tratamiento y, allí, se implementan procesos que pueden ser químicos, físicos y/o mecánicos, los cuales permiten que el agua adquiera características aptas para el consumo humano y se tenga una adecuada regularización.</strong> El siguiente paso son las líneas de alimentación las cuales son el conjunto de tuberías que sirven como conducto del agua desde el tanque de regularización hasta la red de distribución, y en esta, se entrega el agua en condiciones de calidad a cada uno de los usuarios en sus hogares o domicilios.
