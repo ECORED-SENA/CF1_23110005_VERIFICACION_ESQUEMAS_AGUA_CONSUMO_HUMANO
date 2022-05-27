@@ -1,1 +1,1 @@
-module.exports = 'Caracterización de sistemas alternos según la normativa'
+module.exports = 'Caracterización de sistemas alternos según normativa'

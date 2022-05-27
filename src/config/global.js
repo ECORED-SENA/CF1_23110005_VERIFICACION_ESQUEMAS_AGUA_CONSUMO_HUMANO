@@ -1,7 +1,6 @@
 export default {
   global: {
-    componenteFormativo:
-      'Caracterización de sistemas alternos según la normativa',
+    componenteFormativo: 'Caracterización de sistemas alternos según normativa',
     descripcionCurso:
       'El sistema de suministro de agua es de vital importancia para la captación, tratamiento, almacenamiento y distribución óptima para el uso y consumo humano. Así mismo, existen muchos tipos de fuentes que pueden ser consideradas de consumo potable si son tratadas adecuadamente; estas pueden ser naturales, superficiales, subterráneas o atmosféricas.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
