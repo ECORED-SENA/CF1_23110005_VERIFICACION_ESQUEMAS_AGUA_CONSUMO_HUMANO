@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Caracterización de sistemas alternos para tratamientos de agua según la normativa',
+      'Caracterización de sistemas alternos según la normativa',
     descripcionCurso:
       'El sistema de suministro de agua es de vital importancia para la captación, tratamiento, almacenamiento y distribución óptima para el uso y consumo humano. Así mismo, existen muchos tipos de fuentes que pueden ser consideradas de consumo potable si son tratadas adecuadamente; estas pueden ser naturales, superficiales, subterráneas o atmosféricas.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
@@ -285,20 +285,19 @@ export default {
   ],
   complementario: [
     {
-      texto:
-        'Gobierno de Colombia. (s.f.). Decreto 1575 de 2007. Decreto-1575-de-2007-Gestor-Normativo (funcionpublica.gov.co)',
+      texto: 'Gobierno de Colombia. (s.f.). Decreto 1575 de 2007.',
       tipo: 'Decreto',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=30007',
     },
     {
       texto:
-        'EMCASERVICIOS. (2020). ¿Cómo funciona un sistema de alcantarillado? [Video]. https://www.youtube.com/watch?v=vnXBwQXY-Qw',
+        'EMCASERVICIOS. (2020). ¿Cómo funciona un sistema de alcantarillado? [Video].',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=vnXBwQXY-Qw',
     },
     {
-      texto: 'Manual de Tubería de cobre. (s.f.). Manual_tuberias.pdf',
+      texto: 'Manual de Tubería de cobre. (s.f.). Manual tuberias',
       tipo: 'Documento',
       link: 'https://www.academia.edu/17622063/Manual_tuberias',
     },
